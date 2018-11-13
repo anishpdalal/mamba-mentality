@@ -1,0 +1,2430 @@
+<head class="at-element-marker"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><script src="https://js-agent.newrelic.com/nr-1099.min.js"></script><script type="text/javascript" src="https://beacon.krxd.net/optout_check?callback=Krux.ns._default.kxjsonp_optOutCheck"></script><script src="https://pagead2.googlesyndication.com/pagead/osd.js"></script><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_275.js"></script><script type="text/javascript" src="https://consumer.krxd.net/consent/get/e9eaedd3-c1da-4334-82f0-d7e3ff883c87?idt=device&amp;dt=kxcookie&amp;callback=Krux.ns._default.kxjsonp_consent_get_0"></script><script async="" src="//cdn.krxd.net/ctjs/controltag.js.c18d2ea515480e99b9a7056becfa6a91"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://i.cdn.turner.com/ads/adfuel/modules/dhtmlxgrid.min.js"></script><script type="text/javascript" async="" src="https://i.cdn.turner.com/ads/adfuel/modules/keypress.js"></script><script type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script type="text/javascript" async="" src="https://cdn.krxd.net/controltag?confid=ITcATbN4"></script><script type="text/javascript" async="" src="//www.ugdturner.com/xd.sjs"></script><script type="text/javascript" async="" src="https://c.amazon-adsystem.com/aax2/amzn_ads.js"></script><script type="text/javascript" src="//i.cdn.turner.com/ads/adfuel/modules/prebid-1.15.0.js"></script><script async="" src="//c.amazon-adsystem.com/aax2/apstag.js"></script><script type="text/javascript" async="" src="//static.criteo.net/js/ld/publishertag.js"></script><script type="text/javascript" async="" src="//js-sec.indexww.com/ht/p/186948-120271757110262.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQECWF5UChAHUlNTBwgBVw=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
+
+    
+      
+    
+
+    <title>NBA.com/Stats  | Teams Defense </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home of NBA Advanced Stats - Official NBA Statistics and Advanced Analytics.">
+
+        <link rel="canonical" href="https://stats.nba.com/teams/defense/?Season=2011-12&amp;SeasonType=Regular%20Season&amp;dir=-1&amp;sort=DEF_RATING">
+    
+        <base href="/teams/defense/">
+    
+    
+      <meta property="og:url" content="https://stats.nba.com/teams/defense/?Season=2011-12&amp;SeasonType=Regular%20Season&amp;dir=-1&amp;sort=DEF_RATING">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="NBA Stats">
+  <meta property="og:title" content="Teams Defense">
+  <meta property="og:description" content="Home of NBA Advanced Stats - Official NBA Statistics and Advanced Analytics.">
+  <meta property="og:image" content="/media/img/touch/stats-icon-152x152.png">
+  <meta property="og:sport" content="Basketball">
+  <meta property="og:sports_league" content="NBA">
+
+  
+  
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="manifest" href="/manifest.json">
+
+    <meta name="theme-color" content="#1a477b">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="NBA Stats">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="NBA Stats">
+
+    <link rel="icon" sizes="152x152" href="/media/img/touch/stats-icon-152x152.png">
+    <link rel="apple-touch-icon" href="/media/img/touch/stats-icon-128x128.png">
+    <link rel="shortcut icon" href="/favicon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/styles/theme.min.css">
+
+    <script>window.nbaStatsRoute = '/teams/defense/';</script>
+  <style id="at-mbox-default-style">.mboxDefault {visibility:hidden;}</style><style>.at-element-marker {visibility:visible;}</style><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=stats.nba.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=stats.nba.com"></script><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_275.js" async=""></script><script src="https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/s-code-contents-8e54a15aa0625354698054fe5ea952a2521d81d3.js"></script><script src="https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/s-code-contents-a0a98f0abb91897e64291a10d444fa3b2dfd003d.js"></script><link rel="prefetch" href="https://tpc.googlesyndication.com/safeframe/1-0-31/html/container.html"></head>
+
+  <body class="has-sap-sponser">
+
+    <header id="header-ad">
+      <div id="ad_bnr_atf_01" data-google-query-id="CKaqr9Wf0N4CFcgrlgodIZ0CzA" class=" adfuel-rendered" style=""><div id="google_ads_iframe_/8663477/NBA/stats_0__container__" style="border: 0pt none; display: inline-block; width: 970px; height: 90px;"><iframe frameborder="0" src="https://tpc.googlesyndication.com/safeframe/1-0-31/html/container.html" id="google_ads_iframe_/8663477/NBA/stats_0" title="advertisement" name="" scrolling="no" marginwidth="0" marginheight="0" width="970" height="90" data-is-safeframe="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" data-google-container-id="3" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+      <div id="ad_mod_92f78ded2" data-google-query-id="CLHHxNWf0N4CFXInrQYdj5YBIg" class=" adfuel-rendered" style=""><div id="google_ads_iframe_/8663477/NBA/global_mktg_0__container__" style="border: 0pt none; display: inline-block; width: 200px; height: 90px;"><iframe frameborder="0" src="https://tpc.googlesyndication.com/safeframe/1-0-31/html/container.html" id="google_ads_iframe_/8663477/NBA/global_mktg_0" title="advertisement" name="" scrolling="no" marginwidth="0" marginheight="0" width="200" height="90" data-is-safeframe="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" data-google-container-id="5" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+    </header>
+
+    <div class="[ show-for-large ] turner-nav">
+      <script>
+  function getTChannelName() {
+    var base = "stats.nba.com:";
+    var cpath = location.pathname.replace(/#/g, "").replace(/\/$/, "").replace(/\//gi, ':');
+
+    if (cpath === "" || cpath === ":") {
+      cpath = "main";
+    } else {
+      cpath = cpath.split(':')[1];
+    }
+
+    return base + cpath;
+  }
+
+  function getPageName(pkg) {
+    var base = "";
+    var cpath = "";
+
+    if (pkg === "t") {
+      base = "stats.nba.com:";
+      cpath = location.pathname.replace(/#/g, "").replace(/\/$/, "");
+
+      return base + cpath + "/";
+    } else if (pkg === "n") {
+      base = "us:stats";
+      cpath = location.pathname.replace(/#/g, "").replace(/\/$/, "").replace(/\//gi, ':');
+
+      if (cpath.includes("scores") && !cpath.includes("boxscores")) {
+        var splitPath = cpath.split(":");
+        cpath = ":" + splitPath[1] + ":" + splitPath.slice(-3).join('');
+      }
+
+      if (cpath === "" || cpath === ":") {
+        cpath = ":main";
+      }
+
+      return base + cpath;
+    } else {
+      return null;
+    }
+  }
+
+  var tChannelName = getTChannelName();
+  var tPageName = getPageName("t");
+  var nPageName = getPageName("n");
+
+  // write initial page on load object
+  window.digitalData = {
+    tPageName: tPageName,
+    nPageName: nPageName,
+    tChannel: tChannelName,
+    nChannel: tChannelName,
+    registeredUser: ""
+  };
+</script>
+
+<script src="//assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/satelliteLib-87325a94dcd673b623e98a8819ed836986252253.js"></script><script src="https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/mbox-contents-52852637d11c7dcca0268f7cbdfb88280923dc25.js"></script>
+
+<div class="turner-nav__inner">
+
+  <div class="turner-nav__logo">
+    <a href="http://www.nba.com"><img class="turner-nav__logo-img" alt="NBA Logo" title="NBA" src="/media/img/league/nba-logoman-word-white.svg"></a>
+  </div>
+
+  <ul class="turner-nav__left" role="navigation">
+    <li class="turner-nav__menu-item"><a href="https://stats.nba.com/scores"><span>Scores</span></a></li>
+    <li class="turner-nav__menu-item"><a href="https://stats.nba.com/schedule/"><span>Schedule</span></a></li>
+    <li class="turner-nav__menu-item"><a href="https://www.nba.com/news"><span>News</span></a></li>
+    <li class="turner-nav__menu-item"><a href="https://www.nba.com/video"><span>Video</span></a></li>
+    <li class="turner-nav__menu-item"><a href="https://www.nba.com/standings"><span>Standings</span></a></li>
+    <li class="turner-nav__menu-item"><a href="https://stats.nba.com"><span>Stats</span></a></li>
+    <li class="turner-nav__menu-item"><a href="https://stats.nba.com/players/"><span>Players</span></a></li>
+    <li class="turner-nav__menu-item"><a href="https://stats.nba.com/teams/"><span>Teams</span></a></li>
+  </ul>
+
+  <ul class="turner-nav__right" role="navigation">
+    <li class="turner-nav__menu-item"><a href="https://www.nba.com/leaguepass" title="NBA League Pass"><span>NBA LEAGUE PASS</span></a></li>
+    <li class="turner-nav__menu-item"><a href="https://www.nba.com/global/storelinkhandler.html" title="NBA Store"><span>Store</span></a></li>
+    <li class="turner-nav__menu-item"><a href="http://nbatickets.nba.com/" title="NBA Tickets"><span>Tickets</span></a></li>
+  </ul>
+
+</div>
+    </div>
+
+    <div class="stats-subheader [ show-for-large ]">
+      <div class="sap-flag [ show-for-sap ]">
+        <div class="sap-flag__inner sap-flag__inner--strong">
+          <img class="stats-subheader__brand-logo" title="NBA Advanced Stats" alt="NBA Advanced Stats site wordmark" src="/media/img/league/nba-advanced-stats-logo.svg">
+          <a class="sap-flag__link" href=""><img class="sap-flag__image" src="/media/img/sap_header_v6.svg"></a>
+        </div>
+      </div>
+    </div>
+
+    <main class="stats-container">
+
+      <nav class="stats-dropdown ng-hide" ng-controller="StatsNavController" ng-show="showSiteNavigation" aria-hidden="true">
+
+  <section class="dropdown__base" style="height: 529px; overflow-y: auto;">
+
+    <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/">Stats Home</a>
+      </h4>
+    </div>
+
+    <!-- players: open -->
+    <div class="dropdown__category--active ng-hide" ng-show="isPlayerSection" aria-hidden="true">
+      <div class="dropdown__item" ng-click="toggleActiveMenu('player')" role="button" tabindex="0">
+        <h4 class="dropdown__item-header">
+          <a class="dropdown__item-header__link"> <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </h4>
+      </div>
+    </div>
+
+    <section class="dropdown__category ng-hide" ng-show="isActiveMenu.player" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <!---->
+        <!-- <li ng-if="player.sections.current"><a href="/player/{{ player.id }}/fantasy/" ng-click="toggleNav();">Fantasy</a></li> -->
+
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <li><a href="/player//career/">Career</a></li>
+
+        <!---->
+
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+      </ul>
+    </section>
+
+    <!-- teams: open -->
+    <div class="dropdown__category--active ng-hide" ng-show="isTeamSection" aria-hidden="true">
+      <div class="dropdown__item" ng-click="toggleActiveMenu('team')" role="button" tabindex="0">
+        <h4 class="dropdown__item-header">
+          <a class="dropdown__item-header__link">  <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </h4>
+      </div>
+    </div>
+
+    <section class="dropdown__category ng-hide" ng-show="isActiveMenu.team" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <li><a href="/team//" ng-click="toggleNav();">Profile</a></li>
+        <!----><li ng-if="!team.isSpecial"><a href="/team//traditional/" ng-click="toggleNav();">Traditional</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//advanced/" ng-click="toggleNav();">Advanced</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//four-factors/" ng-click="toggleNav();">Four Factors</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//misc/" ng-click="toggleNav();">Misc</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//scoring/" ng-click="toggleNav();">Scoring</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//opponent/" ng-click="toggleNav();">Opponent</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//shooting/" ng-click="toggleNav();">Shooting</a></li><!---->
+
+        <!-- lineups -->
+
+        <!----><li ng-if="!team.isSpecial"><a href="/team//lineups-traditional/" ng-click="toggleNav();">Lineups Traditional</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//lineups-advanced/" ng-click="toggleNav();">Lineups Advanced</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//lineups-four-factors/" ng-click="toggleNav();">Lineups Four Factors</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//lineups-misc/" ng-click="toggleNav();">Lineups Misc</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//lineups-scoring/" ng-click="toggleNav();">Lineups Scoring</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//lineups-opponent/" ng-click="toggleNav();">Lineups Opponent</a></li><!---->
+
+        <!-- players -->
+
+        <!----><li ng-if="!team.isSpecial"><a href="/team//players-traditional/" ng-click="toggleNav();">Players Traditional</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//players-advanced/" ng-click="toggleNav();">Players Advanced</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//players-misc/" ng-click="toggleNav();">Players Misc</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//players-scoring/" ng-click="toggleNav();">Players Scoring</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//players-usage/" ng-click="toggleNav();">Players Usage</a></li><!---->
+
+        <!-- on off court -->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//onoffcourt-traditional/" ng-click="toggleNav();">On/Off Court Traditional</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//onoffcourt-advanced/" ng-click="toggleNav();">On/Off Court Advanced</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//onoffcourt-four-factors/" ng-click="toggleNav();">On/Off Court Four Factors</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//onoffcourt-misc/" ng-click="toggleNav();">On/Off Court Misc</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//onoffcourt-scoring/" ng-click="toggleNav();">On/Off Court Scoring</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//onoffcourt-opponent/" ng-click="toggleNav();">On/Off Court Opponent</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//onoffcourt-summary/" ng-click="toggleNav();">On/Off Court Summary</a></li><!---->
+
+        <!-- tracking -->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//shots-dash/" ng-click="toggleNav();">Shots Dashboard</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//rebounds-dash/" ng-click="toggleNav();">Rebounds Dashboard</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//passes-dash/" ng-click="toggleNav();">Passes Dashboard</a></li><!---->
+
+        <!-- history -->
+        <li><a href="/team//boxscores/" ng-click="toggleNav();">Box Scores</a></li>
+
+        <!----><li ng-if="!team.isSpecial"><a href="/team//boxscores-traditional/" ng-click="toggleNav();">Advanced Box Scores Traditional</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//boxscores-advanced/" ng-click="toggleNav();">Advanced Box Scores Advanced</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//boxscores-four-factors/" ng-click="toggleNav();">Advanced Box Scores Four Factors</a></li><!---->
+        <!----><li ng-if="!team.isSpecial"><a href="/team//boxscores-misc/" ng-click="toggleNav();">Advanced Box Scores Misc</a></li><!---->
+        <!----><li ng-if="!team.isSpecial" s=""><a href="/team//boxscores-scoring/" ng-click="toggleNav();">Advanced Box Scores Scoring</a></li><!---->
+
+        <li><a href="/team//seasons/" ng-click="toggleNav();">Seasons</a></li>
+        <li><a href="/team//yearoveryear/" ng-click="toggleNav();">Year Over Year</a></li>
+        <li><a href="/team//franchise-leaders/" ng-click="toggleNav();">Franchise Leaders</a></li>
+        <li><a href="/team//historic-roster/" ng-click="toggleNav();">Historic Roster</a></li>
+      </ul>
+    </section>
+
+
+    <!-- on off: open -->
+    <div class="dropdown__category--active ng-hide" ng-show="isOnOffSection" aria-hidden="true">
+      <div class="dropdown__item" ng-click="toggleActiveMenu('onoff')" role="button" tabindex="0">
+        <h4 class="dropdown__item-header">
+          <a class="dropdown__item-header__link">On Off Court Compare <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </h4>
+      </div>
+    </div>
+
+    <section class="dropdown__category ng-hide" ng-show="isActiveMenu.onoff" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <li><a href="/vs/" ng-click="toggleNav();">Traditional</a></li>
+        <li><a href="/vs/advanced/" ng-click="toggleNav();">Advanced</a></li>
+        <li><a href="/vs/misc/" ng-click="toggleNav();">Misc</a></li>
+        <li><a href="/vs/scoring/" ng-click="toggleNav();">Scoring</a></li>
+        <li><a href="/vs/four-factors/" ng-click="toggleNav();">Four Factors</a></li>
+        <li><a href="/vs/opponent/" ng-click="toggleNav();">Opponent</a></li>
+      </ul>
+    </section>
+
+    <!-- game: open -->
+    <div class="dropdown__category--active ng-hide" ng-show="isGameSection" aria-hidden="true">
+      <div class="dropdown__item" ng-click="toggleActiveMenu('game')" role="button" tabindex="0">
+        <h4 class="dropdown__item-header">
+          <a class="dropdown__item-header__link"> <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </h4>
+      </div>
+    </div>
+
+    <section class="dropdown__category ng-hide" ng-show="isActiveMenu.game" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <li><a href="/game//">Box Score</a></li>
+        <li><a ng-show="game.sections.advancedStats" href="/game//advanced/" ng-click="toggleNav();" aria-hidden="true" class="ng-hide">Advanced</a></li>
+        <li><a ng-show="game.sections.advancedStats" href="/game//misc/" ng-click="toggleNav();" aria-hidden="true" class="ng-hide">Misc</a></li>
+        <li><a ng-show="game.sections.advancedStats" href="/game//scoring/" ng-click="toggleNav();" aria-hidden="true" class="ng-hide">Scoring</a></li>
+        <li><a ng-show="game.sections.advancedStats" href="/game//usage/" ng-click="toggleNav();" aria-hidden="true" class="ng-hide">Usage</a></li>
+        <li><a ng-show="game.sections.advancedStats" href="/game//four-factors/" ng-click="toggleNav();" aria-hidden="true" class="ng-hide">Four Factors</a></li>
+        <li><a ng-show="game.sections.playerTracking" href="/game//tracking/" ng-click="toggleNav();" aria-hidden="true" class="ng-hide">Player Tracking</a></li>
+        <li><a ng-show="game.sections.playByPlay" href="/game//playbyplay/" ng-click="toggleNav();" aria-hidden="true" class="ng-hide">Play By Play</a></li>
+        <li><a ng-show="game.sections.shotchart" href="/game//shotchart/" ng-click="toggleNav();" aria-hidden="true" class="ng-hide">Shotchart</a></li>
+        <li><a ng-show="game.sections.gameCharts" href="/game//charts/" ng-click="toggleNav();" aria-hidden="true" class="ng-hide">Game Charts</a></li>
+        <li><a ng-show="game.sections.hustle" href="/game//hustle/" ng-click="toggleNav();" aria-hidden="true" class="ng-hide">Hustle</a></li>
+      </ul>
+    </section>
+
+    <!-- fantasy: open -->
+    <div class="dropdown__category--active ng-hide" ng-show="isFantasySection" aria-hidden="true">
+      <div class="dropdown__item" ng-click="toggleActiveMenu('fantasy')" role="button" tabindex="0">
+        <h4 class="dropdown__item-header">
+          <a class="dropdown__item-header__link">Fantasy Compare <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </h4>
+      </div>
+    </div>
+
+    <section class="dropdown__category ng-hide" ng-show="isActiveMenu.fantasy" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <li><a href="/fantasycompare/" ng-click="toggleNav();">Traditional</a></li>
+        <li><a href="/fantasycompare/advanced/" ng-click="toggleNav();">Advanced</a></li>
+        <li><a href="/fantasycompare/misc/" ng-click="toggleNav();">Misc</a></li>
+        <li><a href="/fantasycompare/scoring/" ng-click="toggleNav();">Scoring</a></li>
+      </ul>
+    </section>
+
+    <!-- impact: open -->
+    <div class="dropdown__category--active ng-hide" ng-show="isImpactSection" aria-hidden="true">
+      <div class="dropdown__item" ng-click="toggleActiveMenu('impact')" role="button" tabindex="0">
+        <h4 class="dropdown__item-header">
+          <a class="dropdown__item-header__link">Impact <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </h4>
+      </div>
+    </div>
+
+    <section class="dropdown__category ng-hide" ng-show="isActiveMenu.impact" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <li><a href="/impact/" ng-click="toggleNav();">Traditional</a></li>
+        <li><a href="/impact/advanced/" ng-click="toggleNav();">Advanced</a></li>
+        <li><a href="/impact/misc/" ng-click="toggleNav();">Misc</a></li>
+        <li><a href="/impact/scoring/" ng-click="toggleNav();">Scoring</a></li>
+        <li><a href="/impact/four-factors/" ng-click="toggleNav();">Four Factors</a></li>
+        <!-- <li><a href="/impact/opponent/{{ impact }}" ng-click="toggleNav();">Opponent</a></li> -->
+        <!-- <li><a href="/impact/usage/{{ impact }}" ng-click="toggleNav();">Usage</a></li> -->
+        <li><a href="/impact/defense/" ng-click="toggleNav();">Defense</a></li>
+      </ul>
+    </section>
+
+
+    <div class="stats-dropdown__level--base__top"></div>
+
+
+    <!-- players -->
+    <div class="dropdown__item" ng-click="toggleCat('players')" ng-class="{'dropdown__item--active':isCat.players}" role="button" tabindex="0">
+      <h4 class="dropdown__item-header">Players <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+
+    <!-- players - category -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.players" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <li><a href="/players/">Players Home</a></li>
+        <li><a href="/players/list/">Player Index</a></li>
+        <li><a href="/players/traditional/">Traditional Stats</a></li>
+        <li><a href="/leaders/">Regular Season Leaders</a></li>
+        <!----><li ng-if="flags.isHustleMenuActive"><a href="/players/hustle-leaders/">Hustle Leaders</a></li><!---->
+        <li><a href="/players/advanced-leaders/">Advanced Leaders</a></li>
+        <li><a href="/alltime/">All Time Leaders</a></li>
+
+        <!-- players / general -->
+        <li class="dropdown__item" ng-click="toggleSub(isPlayersSub, 'general')" ng-class="{'dropdown__item--active': isPlayersSub.general}" role="button" tabindex="0">
+          <a class="dropdown__item-header">General <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isPlayersSub.general" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a href="/players/traditional/">Traditional</a></li>
+            <li><a href="/players/advanced/">Advanced</a></li>
+            <li><a href="/players/misc/">Misc</a></li>
+            <li><a href="/players/scoring/">Scoring</a></li>
+            <li><a href="/players/usage/">Usage</a></li>
+            <li><a href="/players/opponent/">Opponent</a></li>
+            <li><a href="/players/defense/">Defense</a></li>
+          </ul>
+        </section>
+
+        <!-- players / clutch -->
+        <li class="dropdown__item" ng-click="toggleSub(isPlayersSub, 'clutch')" ng-class="{'dropdown__item--active': isPlayersSub.clutch}" role="button" tabindex="0">
+          <a class="dropdown__item-header">Clutch <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isPlayersSub.clutch" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a href="/players/clutch-traditional/">Clutch Traditional</a></li>
+            <li><a href="/players/clutch-advanced/">Clutch Advanced</a></li>
+            <li><a href="/players/clutch-misc/">Clutch Misc</a></li>
+            <li><a href="/players/clutch-scoring/">Clutch Scoring</a></li>
+            <li><a href="/players/clutch-usage/">Clutch Usage</a></li>
+          </ul>
+        </section>
+
+        <!-- players / defense -->
+        <li class="dropdown__item" ng-click="toggleSub(isPlayersSub, 'defense')" ng-class="{'dropdown__item--active': isPlayersSub.defense}" role="button" tabindex="0">
+          <a class="dropdown__item-header">Defense <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isPlayersSub.defense" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a href="/players/defense/">Defense Overall</a></li>
+            <li><a href="/players/defense-dash-overall/">Defending Shots Overall</a></li>
+            <li><a href="/players/defense-dash-3pt/">Defending 3 Pointers</a></li>
+            <li><a href="/players/defense-dash-2pt/">Defending 2 Pointers</a></li>
+            <li><a href="/players/defense-dash-lt6/">Defending Less Than 6 FT</a></li>
+            <li><a href="/players/defense-dash-lt10/">Defending Less Than 10 FT</a></li>
+            <li><a href="/players/defense-dash-gt15/">Defending More Than 15 FT</a></li>
+            <li><a href="/players/opponent-shooting/">Opponent Shooting</a></li>
+            <li><a href="/players/isolation/?OD=defensive">By Play Type</a></li>
+          </ul>
+        </section>
+
+        <!-- players / playtype -->
+        <!-- <li class="dropdown__item" ng-click="toggleSub(isPlayersSub, 'playtype')" ng-class="{'dropdown__item--active': isPlayersSub.playtype}">
+          <a class="dropdown__item-header">Play Type <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory" ng-show="isPlayersSub.playtype">
+          <ul class="dropdown__subcategory-list">
+            <li><a href="/players/transition/">Transition</a></li>
+            <li><a href="/players/isolation/">Isolation</a></li>
+            <li><a href="/players/ball-handler/">Ball Handler</a></li>
+            <li><a href="/players/roll-man/">Roll Man</a></li>
+            <li><a href="/players/playtype-post-up/">Post Up</a></li>
+            <li><a href="/players/spot-up/">Spot Up</a></li>
+            <li><a href="/players/hand-off/">Hand Off</a></li>
+            <li><a href="/players/cut/">Cut</a></li>
+            <li><a href="/players/off-screen/">Off Screen</a></li>
+            <li><a href="/players/putbacks/">Put Backs</a></li>
+            <li><a href="/players/playtype-misc/">Misc</a></li>
+          </ul>
+        </section> -->
+
+        <!-- players / tracking -->
+        <li class="dropdown__item" ng-click="toggleSub(isPlayersSub, 'tracking')" ng-class="{'dropdown__item--active': isPlayersSub.tracking}" role="button" tabindex="0">
+          <a class="dropdown__item-header">Tracking <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isPlayersSub.tracking" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a href="/players/catch-shoot/">Catch &amp; Shoot</a></li>
+            <li><a href="/players/defensive-impact/">Defensive Impact</a></li>
+            <li><a href="/players/drives/">Drives</a></li>
+            <li><a href="/players/passing/">Passing</a></li>
+            <li><a href="/players/touches/">Touches</a></li>
+            <li><a href="/players/pullup/">Pull Up Shooting</a></li>
+            <li><a href="/players/rebounding/">Rebounding</a></li>
+            <li><a href="/players/offensive-rebounding/">Offensive Rebounding</a></li>
+            <li><a href="/players/defensive-rebounding/">Defensive Rebounding</a></li>
+            <li><a href="/players/shooting-efficiency/">Shooting Efficiency</a></li>
+            <li><a href="/players/speed-distance/">Speed &amp; Distance</a></li>
+            <li><a href="/players/elbow-touch/">Elbow Touches</a></li>
+            <li><a href="/players/tracking-post-ups/">Post Ups</a></li>
+            <li><a href="/players/paint-touch/">Paint Touches</a></li>
+          </ul>
+        </section>
+
+        <!-- players / shots -->
+        <li class="dropdown__item" ng-click="toggleSub(isPlayersSub, 'shots')" ng-class="{'dropdown__item--active': isPlayersSub.shots}" role="button" tabindex="0">
+          <a class="dropdown__item-header">Shooting <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isPlayersSub.shots" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a href="/players/shots-general/">Shots by General Range</a></li>
+            <li><a href="/players/shots-shotclock/">Shots by Shotclock</a></li>
+            <li><a href="/players/shots-dribbles/">Shots by Dribbles</a></li>
+            <li><a href="/players/shots-touch-time/">Shots by Touch Time</a></li>
+            <li><a href="/players/shots-closest-defender/">Shots by Closest Defender</a></li>
+            <li><a href="/players/shots-closest-defender-10/">Shots by Closest Defender (+10 FT)</a></li>
+            <li><a href="/players/shooting/">Shooting</a></li>
+            <li><a href="/players/opponent-shooting/">Opponent Shooting</a></li>
+          </ul>
+        </section>
+
+        <li><a href="/players/hustle/">Hustle Stats</a></li>
+        <li><a href="/players/bio/">Bios</a></li>
+        <li><a href="/players/boxscores/">Box Scores</a></li>
+
+        <!-- players / advanced game logs -->
+        <li class="dropdown__item" ng-click="toggleSub(isPlayersSub, 'advboxscores')" ng-class="{'dropdown__item--active': isPlayersSub.advboxscores}" role="button" tabindex="0">
+          <a class="dropdown__item-header">Advanced Box Scores <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isPlayersSub.advboxscores" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a href="/players/boxscores-traditional/">Traditional</a></li>
+            <li><a href="/players/boxscores-advanced/">Advanced</a></li>
+            <li><a href="/players/boxscores-misc/">Misc</a></li>
+            <li><a href="/players/boxscores-scoring/">Scoring</a></li>
+            <li><a href="/players/boxscores-usage/">Usage</a></li>
+          </ul>
+        </section>
+
+
+      </ul>
+    </section>
+
+    <!-- teams -->
+    <div class="dropdown__item" ng-click="toggleCat('teams')" ng-class="{'dropdown__item--active':isCat.teams}" role="button" tabindex="0">
+      <h4 class="dropdown__item-header">Teams <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <section class="dropdown__category ng-hide" ng-show="isCat.teams" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <li><a href="/teams/">Teams Home</a></li>
+
+        <!-- teams / general -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'list')" ng-class="{'dropdown__item--active': isTeamsSub.list}" role="button" tabindex="0">
+          <a class="dropdown__item-header">All Teams <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.list" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <!----><li ng-repeat="t in teams"><a href="/team/1610612737/">Atlanta Hawks</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612738/">Boston Celtics</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612751/">Brooklyn Nets</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612766/">Charlotte Hornets</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612741/">Chicago Bulls</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612739/">Cleveland Cavaliers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612742/">Dallas Mavericks</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612743/">Denver Nuggets</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612765/">Detroit Pistons</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612744/">Golden State Warriors</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612745/">Houston Rockets</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612754/">Indiana Pacers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612746/">LA Clippers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612747/">Los Angeles Lakers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612763/">Memphis Grizzlies</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612748/">Miami Heat</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612749/">Milwaukee Bucks</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612750/">Minnesota Timberwolves</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612740/">New Orleans Pelicans</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612752/">New York Knicks</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612760/">Oklahoma City Thunder</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612753/">Orlando Magic</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612755/">Philadelphia 76ers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612756/">Phoenix Suns</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612757/">Portland Trail Blazers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612758/">Sacramento Kings</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612759/">San Antonio Spurs</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612761/">Toronto Raptors</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612762/">Utah Jazz</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612764/">Washington Wizards</a></li><!---->
+          </ul>
+        </section>
+
+        <li><a href="/teams/traditional/">Traditional Stats</a></li>
+        <!----><li ng-if="flags.isHustleMenuActive"><a href="/teams/hustle-leaders/">Hustle Leaders</a></li><!---->
+        <li><a href="/teams/advanced-leaders/">Advanced Leaders</a></li>
+
+        <!-- teams / general -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'general')" ng-class="{'dropdown__item--active': isTeamsSub.general}" role="button" tabindex="0">
+          <a class="dropdown__item-header">General <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.general" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a href="/teams/traditional/">Traditional</a></li>
+            <li><a href="/teams/advanced/">Advanced</a></li>
+            <li><a href="/teams/misc/">Misc</a></li>
+            <li><a href="/teams/four-factors/">Four Factors</a></li>
+            <li><a href="/teams/scoring/">Scoring</a></li>
+            <li><a href="/teams/opponent/">Opponent</a></li>
+            <li><a href="/teams/defense/">Defense</a></li>
+          </ul>
+        </section>
+
+        <!-- clutch -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'clutch')" ng-class="{'dropdown__item--active': isTeamsSub.clutch}" role="button" tabindex="0">
+          <a class="dropdown__item-header">Clutch <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.clutch" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a href="/teams/clutch-traditional/">Clutch Traditional</a></li>
+            <li><a href="/teams/clutch-advanced/">Clutch Advanced</a></li>
+            <li><a href="/teams/clutch-misc/">Clutch Misc</a></li>
+            <li><a href="/teams/clutch-four-factors/">Clutch Four Factors</a></li>
+            <li><a href="/teams/clutch-scoring/">Clutch Scoring</a></li>
+            <li><a href="/teams/clutch-opponent/">Clutch Opponent</a></li>
+          </ul>
+        </section>
+
+        <!-- teams / defense -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'defense')" ng-class="{'dropdown__item--active': isTeamsSub.defense}" role="button" tabindex="0">
+          <a class="dropdown__item-header">Defense <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.defense" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a href="/teams/defense/">Defense Overall</a></li>
+            <li><a href="/teams/defense-dash-overall/">Defending Shots Overall</a></li>
+            <li><a href="/teams/defense-dash-3pt/">Defending 3 Pointers</a></li>
+            <li><a href="/teams/defense-dash-2pt/">Defending 2 Pointers</a></li>
+            <li><a href="/teams/defense-dash-lt6/">Defending Less Than 6 FT</a></li>
+            <li><a href="/teams/defense-dash-lt10/">Defending Less Than 10 FT</a></li>
+            <li><a href="/teams/defense-dash-gt15/">Defending More Than 15 FT</a></li>
+            <li><a href="/teams/opponent-shooting/">Overall Opponent Shooting</a></li>
+            <li><a href="/teams/isolation/?OD=defensive">By Play Type</a></li>
+          </ul>
+        </section>
+
+        <!-- teams / playtype -->
+        <!-- <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'playtype')" ng-class="{'dropdown__item--active': isTeamsSub.playtype}">
+          <a class="dropdown__item-header">Play Type <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory" ng-show="isTeamsSub.playtype">
+          <ul class="dropdown__subcategory-list">
+            <li><a href="/teams/transition/">Transition</a></li>
+            <li><a href="/teams/isolation/">Isolation</a></li>
+            <li><a href="/teams/ball-handler/">Ball Handler</a></li>
+            <li><a href="/teams/roll-man/">Roll Man</a></li>
+            <li><a href="/teams/playtype-post-up/">Post Up</a></li>
+            <li><a href="/teams/spot-up/">Spot Up</a></li>
+            <li><a href="/teams/hand-off/">Hand Off</a></li>
+            <li><a href="/teams/cut/">Cut</a></li>
+            <li><a href="/teams/off-screen/">Off Screen</a></li>
+            <li><a href="/teams/putbacks/">Put Backs</a></li>
+            <li><a href="/teams/playtype-misc/">Misc</a></li>
+          </ul>
+        </section> -->
+
+        <!-- teams / tracking -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'tracking')" ng-class="{'dropdown__item--active': isTeamsSub.tracking}" role="button" tabindex="0">
+          <a class="dropdown__item-header">Tracking <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.tracking" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a href="/teams/catch-shoot/">Catch &amp; Shoot</a></li>
+            <li><a href="/teams/defensive-impact/">Defensive Impact</a></li>
+            <li><a href="/teams/drives/">Drives</a></li>
+            <li><a href="/teams/passing/">Passing</a></li>
+            <li><a href="/teams/touches/">Touches</a></li>
+            <li><a href="/teams/pullup/">Pull Up Shooting</a></li>
+            <li><a href="/teams/rebounding/">Rebounding</a></li>
+            <li><a href="/teams/offensive-rebounding/">Offensive Rebounding</a></li>
+            <li><a href="/teams/defensive-rebounding/">Defensive Rebounding</a></li>
+            <li><a href="/teams/shooting-efficiency/">Shooting Efficiency</a></li>
+            <li><a href="/teams/speed-distance/">Speed &amp; Distance</a></li>
+            <li><a href="/teams/elbow-touch/">Elbow Touches</a></li>
+            <li><a href="/teams/tracking-post-ups/">Post Ups</a></li>
+            <li><a href="/teams/paint-touch/">Paint Touches</a></li>
+          </ul>
+        </section>
+
+        <!-- teams / shot dashboard -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'shotdash')" ng-class="{'dropdown__item--active': isTeamsSub.shotdash}" role="button" tabindex="0">
+          <a class="dropdown__item-header">Shooting <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.shotdash" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a href="/teams/shots-general/">Shots By General Range</a></li>
+            <li><a href="/teams/shots-shotclock/">Shots By Shotclock</a></li>
+            <li><a href="/teams/shots-dribbles/">Shots By Dribbles</a></li>
+            <li><a href="/teams/shots-touch-time/">Shots By Touch Time</a></li>
+            <li><a href="/teams/shots-closest-defender/">Shots By Closest Defender</a></li>
+            <li><a href="/teams/shots-closest-defender-10/">Shots By Closest Defender (+10 FT)</a></li>
+            <li><a href="/teams/shooting/">Shooting</a></li>
+          </ul>
+        </section>
+
+
+        <!-- teams / opp shooting dashboard -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'oppshotdash')" ng-class="{'dropdown__item--active': isTeamsSub.oppshotdash}" role="button" tabindex="0">
+          <a class="dropdown__item-header">Opponent Shooting <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.oppshotdash" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a href="/teams/opponent-shooting/">Overall Opponent Shooting</a></li>
+            <li><a href="/teams/opponent-shots-general/">Opponent Shots By General Range</a></li>
+            <li><a href="/teams/opponent-shots-shotclock/">Opponent Shots By Shotclock</a></li>
+            <li><a href="/teams/opponent-shots-dribbles/">Opponent Shots By Dribbles</a></li>
+            <li><a href="/teams/opponent-shots-touch-time/">Opponent Shots By Touch Time</a></li>
+            <li><a href="/teams/opponent-shots-closest-defender/">Opponent Shots By Closest Defender</a></li>
+            <li><a href="/teams/opponent-shots-closest-defender-10/">Opponent Shots By Closest Defender (+10 FT)</a></li>
+          </ul>
+        </section>
+
+
+        <li><a href="/teams/hustle/">Hustle Stats</a></li>
+        <li><a href="/teams/boxscores/">Box Scores</a></li>
+
+        <!-- teams / advanced game logs -->
+        <li class="dropdown__item" ng-click="toggleSub(isTeamsSub, 'advboxscores')" ng-class="{'dropdown__item--active': isTeamsSub.advboxscores}" role="button" tabindex="0">
+          <a class="dropdown__item-header">Advanced Box Scores <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+
+        <section class="dropdown__subcategory ng-hide" ng-show="isTeamsSub.advboxscores" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a href="/teams/boxscores-traditional/">Traditional</a></li>
+            <li><a href="/teams/boxscores-advanced/">Advanced</a></li>
+            <li><a href="/teams/boxscores-four-factors/">Four Factors</a></li>
+            <li><a href="/teams/boxscores-misc/">Misc</a></li>
+            <li><a href="/teams/boxscores-scoring/">Scoring</a></li>
+          </ul>
+        </section>
+
+
+      </ul>
+    </section>
+
+    <div class="dropdown__separator"></div>
+
+    <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/alltime/">All Time Leaders</a>
+      </h4>
+    </div>
+
+    <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/lineups/">Daily Lineups</a>
+      </h4>
+    </div>
+
+
+    <!-- <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/finals/">Finals</a>
+      </h4>
+    </div> -->
+
+    <!-- <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/draft/combine/">2018 Draft Combine</a>
+      </h4>
+    </div> -->
+
+    <div class="dropdown__separator"></div>
+
+    <!----><div class="dropdown__item" ng-if="flags.isHustleMenuActive">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/players/hustle-leaders/">Hustle Leaders</a>
+      </h4>
+    </div><!---->
+
+    <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/players/advanced-leaders/">Advanced Leaders</a>
+      </h4>
+    </div>
+
+    <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/scores/">Scores</a>
+      </h4>
+    </div>
+
+    <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/schedule/">NBA Schedule</a>
+      </h4>
+    </div>
+
+    <!-- <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/schedule/summerleague/">Summer League Schedule</a>
+      </h4>
+    </div> -->
+
+    <div class="dropdown__item">
+      <h4 class="dropdown__item-header">
+        <a class="dropdown__item-header__link" href="/standings/">Standings</a>
+      </h4>
+    </div>
+
+    <!-- franchiseleaders  -->
+    <div class="dropdown__item" ng-click="toggleCat('franchiseleaders');" ng-class="{'dropdown__item--active':isCat.franchiseleaders}" role="button" tabindex="0">
+      <h4 class="dropdown__item-header">Franchise Leaders<i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <!-- category: franchiseleaders -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.franchiseleaders" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <!----><li ng-repeat="t in teams"><a href="/team/1610612737/franchise-leaders">Atlanta Hawks</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612738/franchise-leaders">Boston Celtics</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612751/franchise-leaders">Brooklyn Nets</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612766/franchise-leaders">Charlotte Hornets</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612741/franchise-leaders">Chicago Bulls</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612739/franchise-leaders">Cleveland Cavaliers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612742/franchise-leaders">Dallas Mavericks</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612743/franchise-leaders">Denver Nuggets</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612765/franchise-leaders">Detroit Pistons</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612744/franchise-leaders">Golden State Warriors</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612745/franchise-leaders">Houston Rockets</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612754/franchise-leaders">Indiana Pacers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612746/franchise-leaders">LA Clippers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612747/franchise-leaders">Los Angeles Lakers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612763/franchise-leaders">Memphis Grizzlies</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612748/franchise-leaders">Miami Heat</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612749/franchise-leaders">Milwaukee Bucks</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612750/franchise-leaders">Minnesota Timberwolves</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612740/franchise-leaders">New Orleans Pelicans</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612752/franchise-leaders">New York Knicks</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612760/franchise-leaders">Oklahoma City Thunder</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612753/franchise-leaders">Orlando Magic</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612755/franchise-leaders">Philadelphia 76ers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612756/franchise-leaders">Phoenix Suns</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612757/franchise-leaders">Portland Trail Blazers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612758/franchise-leaders">Sacramento Kings</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612759/franchise-leaders">San Antonio Spurs</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612761/franchise-leaders">Toronto Raptors</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612762/franchise-leaders">Utah Jazz</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612764/franchise-leaders">Washington Wizards</a></li><!---->
+      </ul>
+    </section>
+
+    <!-- fantasy -->
+    <div class="dropdown__item" ng-click="toggleCat('fantasySection');" ng-class="{'dropdown__item--active':isCat.fantasySection}" role="button" tabindex="0">
+      <h4 class="dropdown__item-header">Fantasy<i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <!-- category: fantasy-->
+    <section class="dropdown__category ng-hide" ng-show="isCat.fantasySection" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <li><a href="/fantasynews/">Fantasy News</a></li>
+        <li><a href="/fantasycompare/">Fantasy Compare</a></li>
+        <li><a href="/fantasydraft/">Fantasy Mock Draft</a></li>
+        <li><a href="/fantasyranking/">Fantasy Cumulative Ranking</a></li>
+      </ul>
+    </section>
+
+
+    <!-- lineups -->
+    <div class="dropdown__item" ng-click="toggleCat('lineups')" ng-class="{'dropdown__item--active':isCat.lineups}" role="button" tabindex="0">
+      <h4 class="dropdown__item-header">Lineups <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <!-- category: lineups -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.lineups" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <li><a href="/lineups/traditional/">Traditional</a></li>
+        <li><a href="/lineups/advanced/">Advanced</a></li>
+        <li><a href="/lineups/misc/">Misc</a></li>
+        <li><a href="/lineups/four-factors/">Four Factors</a></li>
+        <li><a href="/lineups/scoring/">Scoring</a></li>
+        <li><a href="/lineups/opponent/">Opponent</a></li>
+      </ul>
+    </section>
+
+    <!-- onoff  -->
+    <div class="dropdown__item" ng-click="toggleCat('onoff');" ng-class="{'dropdown__item--active':isCat.onoff}" role="button" tabindex="0">
+      <h4 class="dropdown__item-header">On/Off Court by Team <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <!-- category: onoff -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.onoff" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <!----><li ng-repeat="t in teams"><a href="/team/1610612737/onoffcourt-summary">Atlanta Hawks</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612738/onoffcourt-summary">Boston Celtics</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612751/onoffcourt-summary">Brooklyn Nets</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612766/onoffcourt-summary">Charlotte Hornets</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612741/onoffcourt-summary">Chicago Bulls</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612739/onoffcourt-summary">Cleveland Cavaliers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612742/onoffcourt-summary">Dallas Mavericks</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612743/onoffcourt-summary">Denver Nuggets</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612765/onoffcourt-summary">Detroit Pistons</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612744/onoffcourt-summary">Golden State Warriors</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612745/onoffcourt-summary">Houston Rockets</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612754/onoffcourt-summary">Indiana Pacers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612746/onoffcourt-summary">LA Clippers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612747/onoffcourt-summary">Los Angeles Lakers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612763/onoffcourt-summary">Memphis Grizzlies</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612748/onoffcourt-summary">Miami Heat</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612749/onoffcourt-summary">Milwaukee Bucks</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612750/onoffcourt-summary">Minnesota Timberwolves</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612740/onoffcourt-summary">New Orleans Pelicans</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612752/onoffcourt-summary">New York Knicks</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612760/onoffcourt-summary">Oklahoma City Thunder</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612753/onoffcourt-summary">Orlando Magic</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612755/onoffcourt-summary">Philadelphia 76ers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612756/onoffcourt-summary">Phoenix Suns</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612757/onoffcourt-summary">Portland Trail Blazers</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612758/onoffcourt-summary">Sacramento Kings</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612759/onoffcourt-summary">San Antonio Spurs</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612761/onoffcourt-summary">Toronto Raptors</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612762/onoffcourt-summary">Utah Jazz</a></li><!----><li ng-repeat="t in teams"><a href="/team/1610612764/onoffcourt-summary">Washington Wizards</a></li><!---->
+      </ul>
+    </section>
+
+
+    <!-- draft -->
+    <div class="dropdown__item" ng-click="toggleCat('draft')" ng-class="{'dropdown__item--active':isCat.draft}" role="button" tabindex="0">
+      <h4 class="dropdown__item-header">Draft &amp; Combine <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <!-- category: draft -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.draft" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <li><a href="/draft/combine/">2018 Draft Combine</a></li>
+        <li><a href="/draft/history/">Draft History</a></li>
+        <li><a href="/draft/combine-spot-up/">Combine Spot Up Shooting</a></li>
+        <li><a href="/draft/combine-non-stationary/">Combine Non-Stationary Shooting</a></li>
+        <li><a href="/draft/combine-strength-agility/">Combine Strength &amp; Agility</a></li>
+        <li><a href="/draft/combine-anthro/">Combine Anthro</a></li>
+      </ul>
+    </section>
+
+
+    <!-- tools -->
+    <div class="dropdown__item" ng-click="toggleCat('tools')" ng-class="{'dropdown__item--active':isCat.tools}" role="button" tabindex="0">
+      <h4 class="dropdown__item-header">Tools <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <!-- category: tools -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.tools" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <li><a href="/search/player-game/">Player Box Score Search</a></li>
+        <li><a href="/search/team-game/">Team Box Score Search</a></li>
+        <li><a href="/search/player-streak/">Player Streak Search</a></li>
+        <li><a href="/search/team-streak/">Team Streak Search</a></li>
+        <li><a href="/vs/">Player Compare</a></li>
+        <li><a href="/fantasycompare/">Fantasy Compare</a></li>
+        <li><a href="/impact/">Impact</a></li>
+      </ul>
+    </section>
+
+
+    <!-- Stats 101: OTHER -->
+    <div class="dropdown__item" ng-click="toggleCat('other')" ng-class="{'dropdown__item--active':isCat.other}" role="button" tabindex="0">
+      <h4 class="dropdown__item-header">Stats 101<i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <!-- category: other -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.other" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <li><a href="/history/">Franchise History</a></li>
+        <li><a href="/help/statminimums/">Statistical Minimums</a></li>
+        <li><a href="/help/glossary/">Glossary</a></li>
+        <li><a href="/transactions/">Transactions</a></li>
+        <li><a href="/fantasynews/">Fantasy News</a></li>
+        <li><a href="/featuredarchive/">Articles</a></li>
+        <li><a href="/spotlightarchive/">Weekly Stats Archive</a></li>
+        <li><a href="/help/faq/">FAQ</a></li>
+        <li><a href="/help/whatsnew/">What's New</a></li>
+        <li><a href="/help/videostatus/">Video &amp; Tracking Status</a></li>
+        <li><a href="http://videorulebook.nba.com">Video Rulebook</a></li>
+        <li><a href="/help/">Contact Us</a></li>
+      </ul>
+    </section>
+
+
+    <!-- NBA Events -->
+    <div class="dropdown__item" ng-click="toggleCat('nbaEvents')" ng-class="{'dropdown__item--active':isCat.nbaEvents}" role="button" tabindex="0">
+      <h4 class="dropdown__item-header">Events <i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></h4>
+    </div>
+
+    <!-- category: nbaEvents -->
+    <section class="dropdown__category ng-hide" ng-show="isCat.nbaEvents" aria-hidden="true">
+      <ul class="dropdown__category-list" style="height: 529px; overflow-y: auto;">
+        <li><a href="/finals/">2018 Finals</a></li>
+        <li><a href="/playoffs/">2018 Playoffs</a></li>
+        <li><a href="/schedule/summerleague/">2018 Summer League</a></li>
+        <!-- <li><a href="/africa2017/">NBA Africa Game 2017</a></li> -->
+        <li class="dropdown__item" ng-click="toggleSub(isEventsSub, 'allstar')" ng-class="{'dropdown__item--active': isEventsSub.allstar}" role="button" tabindex="0">
+          <a class="dropdown__item-header">All-Star Infographics<i class="dropdown__item-header__arrow [ fa / fa-chevron-right / show-for-large ]" aria-hidden="true"></i><i class="dropdown__item-header__arrow [ fa / fa-chevron-down / hide-for-large ]" aria-hidden="true"></i></a>
+        </li>
+        <section class="dropdown__subcategory ng-hide" ng-show="isEventsSub.allstar" aria-hidden="true">
+          <ul class="dropdown__subcategory-list" style="height: 529px; overflow-y: auto;">
+            <li><a class="dropdown__item-header__link" href="/allstar2018/friday/">All-Star Friday Infographic</a></li>
+
+             <li><a class="dropdown__item-header__link" href="/allstar2018/saturday/">All-Star Saturday Infographic</a></li>
+             <li><a class="dropdown__item-header__link" href="/allstar2018/sunday/">All-Star Sunday Infographic</a></li>
+          </ul>
+        </section>
+        <li><a href="/draft/combine/">2018 Draft Combine</a></li>
+      </ul>
+    </section>
+
+
+  </section>
+
+</nav>
+
+      <div class="nav-container" ng-controller="StatsHeaderController" set-class-scroll-top="" data-element-class="nav-container--fixed" data-body-class="nav--fixed">
+
+  <div class="nav-inner" style="position: relative;">
+    <!-- left: inner nav -->
+    <nav class="nav-inner__menu nav-inner__menu--left" role="navigation">
+      <div class="nav-inner__menu-button" ng-click="toggleNav($event)" role="button" tabindex="0">
+        <i class="nav-inner__menu-button-icon [ fa fa-bars fa-lg ]" aria-hidden="true"></i>
+        <img class="nav-inner__logo" src="/media/img/league/nba-logoman.svg" alt="NBA.com/Stats Logo" title="NBA.com/Stats">
+        <span class="nav-inner__wordmark">Advanced Stats</span>
+      </div>
+      <div class="nav-inner__menu-item" ng-class="{ active: activeTab=='home' }"><a href="/">Stats Home</a></div>
+      <div class="nav-inner__menu-item" ng-class="{ active: activeTab=='players' }"><a href="/players/">Players</a></div>
+      <div class="nav-inner__menu-item active" ng-class="{ active: activeTab=='teams' }"><a href="/teams/">Teams</a></div>
+      <div class="nav-inner__menu-item" ng-class="{ active: activeTab=='leaders' }"><a href="/players/advanced-leaders/">Advanced</a></div>
+      <div class="nav-inner__menu-item" ng-class="{ active: activeTab=='scores' }"><a href="/scores/">Scores</a></div>
+      <div class="nav-inner__menu-item" ng-class="{ active: activeTab=='schedule' }"><a href="/schedule/">Schedule</a></div>
+      <div class="nav-inner__menu-item" ng-class="{ active: activeTab=='alltime' }"><a href="/alltime/">All Time Leaders</a></div>
+
+    </nav> <!-- .nav-inner__menu -->
+
+
+    <!-- right: search -->
+    <!-- add active class to test active search state -->
+    <div class="nav-inner__search nav-inner__search--right stats-search" ng-class="{ active: showSearch }" ng-controller="StatsSearchController">
+
+  <!-- search icon, always visible -->
+  <div class="stats-search__top">
+    <input class="stats-search__input ng-pristine ng-untouched ng-valid ng-empty ng-hide" type="text" ng-model="search" ng-keydown="onKeyDown($event)" ng-change="onChange($event)" ng-show="showSearch" aria-hidden="true" aria-invalid="false">
+    <a class="stats-search__icon" tabindex="0" ng-click="toggleSearch();" ng-keyup="$event.keyCode == 13 ? toggleSearch() : null">
+      <span class="stats-search__icon-text">Search For A Player or Team</span><i class="[ fa / fa-search ]" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  <div class="stats-search__results ng-hide" ng-show="showResults" aria-hidden="true">
+
+    <div class="stats-search__section stats-search__section--none ng-hide" ng-show="!hasResults &amp;&amp; search.length > 3" aria-hidden="true">
+      <span class="stats-search__no-results">No Results Found</span>
+    </div> <!-- .stats-search__section -->
+
+    <div class="stats-search__section ng-hide" ng-show="searchResults.length" ng-class="{recent: showRecent}" aria-hidden="true">
+
+      <!----><!-- .stats-search__item -->
+
+      <div class="stats-search__show-all">
+        <a class="searchbar__results__link searchbar__results__link--more ng-hide" ng-show="searchResults.length > maxResults" ng-href="/players/list/?s=&amp;Historic=1" href="/players/list/?s=&amp;Historic=1" aria-hidden="true">See More Results</a>
+      </div>
+
+    </div> <!-- .stats-search__section -->
+
+  </div> <!-- .nav-inner__search-results -->
+
+
+</div> <!-- .nav-inner__search -->
+
+
+    <div class="nav-inner__sap-insights [ show-for-sap ]">
+      <a href="">
+        <img src="/media/img/sap-insights.svg" alt="Insights From SAP" title="Insights From SAP">
+      </a>
+    </div>
+
+  </div>
+
+
+
+</div>
+
+      <div class="stats-container__inner">
+
+<div class="stats-teams-page" data-nav-section="teams">
+
+  <div class="breadcrumbs">
+    <ol class="breadcrumbs__list" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+      <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+        <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="/">
+        <span itemprop="name">Stats Home</span></a>
+        <meta itemprop="position" content="1">
+      </li>
+      /
+      <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+        <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="/teams/">
+        <span itemprop="name">Teams</span></a>
+        <meta itemprop="position" content="2">
+      </li>
+      /
+      <li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+        <a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="/teams/defense/">
+        <span itemprop="name">Defense</span></a>
+        <meta itemprop="position" content="3">
+      </li>
+    </ol>
+  </div>
+
+  <div class="row">
+    <div class="columns / small-12 / section-view-overlay">
+      <nav-dropdown data-alpha="teams" data-beta="general" data-gamma="defense">
+
+  <nav class="tertiary-nav">
+
+    <section class="tertiary-nav-component">
+      <div class="toggle-nav-component__button" ng-click="showAlpha=!showAlpha; showBeta=false; showGamma=false;" role="button" tabindex="0">
+        <a href="" ng-class="{ active: showAlpha }">Teams</a>
+      </div>
+      <ul class="tertiary-nav-component__dropdown ng-hide" ng-show="showAlpha" aria-hidden="true">
+        <li><a data-type-alpha="players" href="/players/traditional/"><span>Players</span></a></li>
+        <li><a data-type-alpha="teams" href="/teams/traditional/"><span>Teams</span></a></li>
+      </ul>
+    </section>
+
+    <section class="tertiary-nav-component">
+      <div class="toggle-nav-component__button" ng-click="showBeta=!showBeta; showAlpha=false; showGamma=false;" role="button" tabindex="0">
+        <a href="" ng-class="{ active: showBeta }">General</a>
+      </div>
+      <ul class="tertiary-nav-component__dropdown ng-hide" ng-show="showBeta" aria-hidden="true">
+        <li><a data-type-beta="general" href="/teams/traditional/"><span>General</span></a></li>
+        <li><a data-type-beta="clutch" href="/teams/clutch-traditional/"><span>Clutch</span></a></li>
+        <!-- <li><a data-type-beta="playtype" href="/teams/isolation/"><span>Playtype</span></a></li> -->
+        <li><a data-type-beta="tracking" href="/teams/drives/"><span>Tracking</span></a></li>
+        <li><a data-type-beta="def-dash" href="/teams/defense-dash-overall/"><span>Defense Dashboard</span></a></li>
+        <li><a data-type-beta="shot-dash" href="/teams/shots-general/"><span>Shot Dashboard</span></a></li>
+        <li><a data-type-beta="boxscores" href="/teams/boxscores/"><span>Box Scores</span></a></li>
+        <li><a data-type-beta="adv-boxscores" href="/teams/boxscores-traditional/"><span>Advanced Box Scores</span></a></li>
+        <li><a data-type-beta="shooting" href="/teams/shooting/"><span>Shooting</span></a></li>
+        <li><a data-type-beta="opp-shot-dash" href="/teams/opponent-shooting/"><span>Opponent Shooting</span></a></li>
+        <li><a data-type-beta="hustle" href="/teams/hustle/"><span>Hustle</span></a></li>
+        <li><a data-type-beta="adv-leaders" href="/teams/advanced-leaders/"><span>Advanced Leaders</span></a></li>
+        <li><a data-type-beta="hustle-leaders" href="/teams/hustle-leaders/"><span>Hustle Leaders</span></a></li>
+      </ul>
+    </section>
+
+    <section class="tertiary-nav-component" ng-show="beta==='general'" aria-hidden="false">
+      <div class="toggle-nav-component__button" ng-click="showGamma=!showGamma; showAlpha=false; showBeta=false;" role="button" tabindex="0">
+        <a href="" ng-class="{ active: showGamma }">Defense</a>
+      </div>
+      <ul class="tertiary-nav-component__dropdown ng-hide" ng-show="showGamma" aria-hidden="true">
+        <li><a data-type-gamma="traditional" href="/teams/traditional/"><span>Traditional</span></a></li>
+        <li><a data-type-gamma="advanced" href="/teams/advanced/"><span>Advanced</span></a></li>
+        <li><a data-type-gamma="four-factors" href="/teams/four-factors/"><span>Four Factors</span></a></li>
+        <li><a data-type-gamma="misc" href="/teams/misc/"><span>Misc</span></a></li>
+        <li><a data-type-gamma="scoring" href="/teams/scoring/"><span>Scoring</span></a></li>
+        <li><a data-type-gamma="opponent" href="/teams/opponent/"><span>Opponent</span></a></li>
+        <li><a data-type-gamma="defense" href="/teams/defense/"><span>Defense</span></a></li>
+      </ul>
+    </section>
+
+    <section class="tertiary-nav-component ng-hide" ng-show="beta==='clutch'" aria-hidden="true">
+      <div class="toggle-nav-component__button" ng-click="showGamma=!showGamma; showAlpha=false; showBeta=false;" role="button" tabindex="0">
+        <a href="" ng-class="{ active: showGamma }">Defense</a>
+      </div>
+      <ul class="tertiary-nav-component__dropdown ng-hide" ng-show="showGamma" aria-hidden="true">
+        <li><a data-type-gamma="clutch-traditional" href="/teams/clutch-traditional/"><span>Traditional</span></a></li>
+        <li><a data-type-gamma="clutch-advanced" href="/teams/clutch-advanced/"><span>Advanced</span></a></li>
+        <li><a data-type-gamma="clutch-four-factors" href="/teams/clutch-four-factors/"><span>Four Factors</span></a></li>
+        <li><a data-type-gamma="clutch-misc" href="/teams/clutch-misc/"><span>Misc</span></a></li>
+        <li><a data-type-gamma="clutch-scoring" href="/teams/clutch-scoring/"><span>Scoring</span></a></li>
+        <li><a data-type-gamma="clutch-opponent" href="/teams/clutch-opponent/"><span>Opponent</span></a></li>
+      </ul>
+    </section>
+
+    <!-- <section class="tertiary-nav-component" ng-show="beta==='playtype'">
+      <div class="toggle-nav-component__button" ng-click="showGamma=!showGamma; showAlpha=false; showBeta=false;">
+        <a href="" ng-class="{ active: showGamma }">{{ gammaText }}</a>
+      </div>
+      <ul class="tertiary-nav-component__dropdown" ng-show="showGamma">
+        <li><a data-type-gamma="transition" href="/teams/transition/"><span>Transition</span></a></li>
+        <li><a data-type-gamma="isolation" href="/teams/isolation/"><span>Isolation</span></a></li>
+        <li><a data-type-gamma="ball-handler" href="/teams/ball-handler/"><span>Pick &amp; Roll Ball Handler</span></a></li>
+        <li><a data-type-gamma="roll-man" href="/teams/roll-man/"><span>Pick &amp; Roll Roll Man</span></a></li>
+        <li><a data-type-gamma="post-up" href="/teams/playtype-post-up/"><span>Post Up</span></a></li>
+        <li><a data-type-gamma="spot-up" href="/teams/spot-up/"><span>Spot Up</span></a></li>
+        <li><a data-type-gamma="hand-off" href="/teams/hand-off/"><span>Handoff</span></a></li>
+        <li><a data-type-gamma="cut" href="/teams/cut/"><span>Cut</span></a></li>
+        <li><a data-type-gamma="off-screen" href="/teams/off-screen/"><span>Off Screen</span></a></li>
+        <li><a data-type-gamma="putbacks" href="/teams/putbacks/"><span>Putbacks</span></a></li>
+        <li><a data-type-gamma="playtype-misc" href="/teams/playtype-misc/"><span>Misc</span></a></li>
+      </ul>
+    </section> -->
+
+    <section class="tertiary-nav-component ng-hide" ng-show="beta==='tracking'" aria-hidden="true">
+      <div class="toggle-nav-component__button" ng-click="showGamma=!showGamma; showAlpha=false; showBeta=false;" role="button" tabindex="0">
+        <a href="" ng-class="{ active: showGamma }">Defense</a>
+      </div>
+      <ul class="tertiary-nav-component__dropdown ng-hide" ng-show="showGamma" aria-hidden="true">
+        <li><a data-type-gamma="drives" href="/teams/drives/"><span>Drives</span></a></li>
+        <li><a data-type-gamma="defensive-impact" href="/teams/defensive-impact/"><span>Defensive Impact</span></a></li>
+        <li><a data-type-gamma="catch-shoot" href="/teams/catch-shoot/"><span>Catch &amp; Shoot</span></a></li>
+        <li><a data-type-gamma="passing" href="/teams/passing/"><span>Passing</span></a></li>
+        <li><a data-type-gamma="touches" href="/teams/touches/"><span>Touches</span></a></li>
+        <li><a data-type-gamma="pullup" href="/teams/pullup/"><span>Pull Up Shooting</span></a></li>
+        <li><a data-type-gamma="rebounding" href="/teams/rebounding/"><span>Rebounding</span></a></li>
+        <li><a data-type-gamma="offensive-rebounding" href="/teams/offensive-rebounding/"><span>Offensive Rebounding</span></a></li>
+        <li><a data-type-gamma="defensive-rebounding" href="/teams/defensive-rebounding/"><span>Defensive Rebounding</span></a></li>
+        <li><a data-type-gamma="shooting-efficiency" href="/teams/shooting-efficiency/"><span>Shooting Efficiency</span></a></li>
+        <li><a data-type-gamma="speed-distance" href="/teams/speed-distance/"><span>Speed &amp; Distance</span></a></li>
+        <li><a data-type-gamma="elbow-touch" href="/teams/elbow-touch/"><span>Elbow Touches</span></a></li>
+        <li><a data-type-gamma="post-ups" href="/teams/tracking-post-ups/"><span>Post Ups</span></a></li>
+        <li><a data-type-gamma="paint-touch" href="/teams/paint-touch/"><span>Paint Touches</span></a></li>
+      </ul>
+    </section>
+
+    <section class="tertiary-nav-component ng-hide" ng-show="beta==='def-dash'" aria-hidden="true">
+      <div class="toggle-nav-component__button" ng-click="showGamma=!showGamma; showAlpha=false; showBeta=false;" role="button" tabindex="0">
+        <a href="" ng-class="{ active: showGamma }">Defense</a>
+      </div>
+      <ul class="tertiary-nav-component__dropdown ng-hide" ng-show="showGamma" aria-hidden="true">
+        <li><a data-type-gamma="def-overall" href="/teams/defense-dash-overall/"><span>Overall</span></a></li>
+        <li><a data-type-gamma="def-3pt" href="/teams/defense-dash-3pt/"><span>3 Pointers</span></a></li>
+        <li><a data-type-gamma="def-2pt" href="/teams/defense-dash-2pt/"><span>2 Pointers</span></a></li>
+        <li><a data-type-gamma="def-lt6" href="/teams/defense-dash-lt6/"><span>&lt; 6ft.</span></a></li>
+        <li><a data-type-gamma="def-lt10" href="/teams/defense-dash-lt10/"><span>&lt; 10ft.</span></a></li>
+        <li><a data-type-gamma="def-gt15" href="/teams/defense-dash-gt15/"><span>&gt; 15ft.</span></a></li>
+      </ul>
+    </section>
+
+    <section class="tertiary-nav-component ng-hide" ng-show="beta==='shot-dash'" aria-hidden="true">
+      <div class="toggle-nav-component__button" ng-click="showGamma=!showGamma; showAlpha=false; showBeta=false;" role="button" tabindex="0">
+        <a href="" ng-class="{ active: showGamma }">Defense</a>
+      </div>
+      <ul class="tertiary-nav-component__dropdown ng-hide" ng-show="showGamma" aria-hidden="true">
+        <li><a data-type-gamma="shot-general" href="/teams/shots-general/"><span>General</span></a></li>
+        <li><a data-type-gamma="shot-shotclock" href="/teams/shots-shotclock/"><span>Shotclock</span></a></li>
+        <li><a data-type-gamma="shot-dribbles" href="/teams/shots-dribbles/"><span>Dribbles</span></a></li>
+        <li><a data-type-gamma="shot-touch-time" href="/teams/shots-touch-time/"><span>Touch Time</span></a></li>
+        <li><a data-type-gamma="shot-closest-def" href="/teams/shots-closest-defender/"><span>Closest Defender</span></a></li>
+        <li><a data-type-gamma="shot-closest-def10" href="/teams/shots-closest-defender-10/"><span>Closest Defender +10</span></a></li>
+      </ul>
+    </section>
+
+    <section class="tertiary-nav-component ng-hide" ng-show="beta==='opp-shot-dash'" aria-hidden="true">
+      <div class="toggle-nav-component__button" ng-click="showGamma=!showGamma; showAlpha=false; showBeta=false;" role="button" tabindex="0">
+        <a href="" ng-class="{ active: showGamma }">Defense</a>
+      </div>
+      <ul class="tertiary-nav-component__dropdown ng-hide" ng-show="showGamma" aria-hidden="true">
+        <li><a data-type-gamma="overall" href="/teams/opponent-shooting/"><span>Overall Opponent Shooting</span></a></li>
+        <li><a data-type-gamma="shot-general" href="/teams/opponent-shots-general/"><span>General</span></a></li>
+        <li><a data-type-gamma="shot-shotclock" href="/teams/opponent-shots-shotclock/"><span>Shotclock</span></a></li>
+        <li><a data-type-gamma="shot-dribbles" href="/teams/opponent-shots-dribbles/"><span>Dribbles</span></a></li>
+        <li><a data-type-gamma="shot-touch-time" href="/teams/opponent-shots-touch-time/"><span>Touch Time</span></a></li>
+        <li><a data-type-gamma="shot-closest-def" href="/teams/opponent-shots-closest-defender/"><span>Closest Defender</span></a></li>
+        <li><a data-type-gamma="shot-closest-def10" href="/teams/opponent-shots-closest-defender-10/"><span>Closest Defender +10</span></a></li>
+      </ul>
+    </section>
+
+    <section class="tertiary-nav-component ng-hide" ng-show="beta==='adv-boxscores'" aria-hidden="true">
+      <div class="toggle-nav-component__button" ng-click="showGamma=!showGamma; showAlpha=false; showBeta=false;" role="button" tabindex="0">
+        <a href="" ng-class="{ active: showGamma }">Defense</a>
+      </div>
+      <ul class="tertiary-nav-component__dropdown ng-hide" ng-show="showGamma" aria-hidden="true">
+        <li><a data-type-gamma="traditional" href="/teams/boxscores-traditional/"><span>Traditional</span></a></li>
+        <li><a data-type-gamma="advanced" href="/teams/boxscores-advanced/"><span>Advanced</span></a></li>
+        <li><a data-type-gamma="four-factors" href="/teams/boxscores-four-factors/"><span>Four Factors</span></a></li>
+        <li><a data-type-gamma="misc" href="/teams/boxscores-misc/"><span>Misc</span></a></li>
+        <li><a data-type-gamma="scoring" href="/teams/boxscores-scoring/"><span>Scoring</span></a></li>
+      </ul>
+    </section>
+
+    <section class="tertiary-nav-component">
+      <div class="toggle-nav-component__caret">
+        <i class="fa fa-caret-down" aria-hidden="true"></i>
+      </div>
+    </section>
+
+  </nav>
+
+  <section class="columns / small-12 / tertiary-nav-overlay" ng-class="{ active: showAlpha || showBeta || showGamma }"></section>
+
+</nav-dropdown>
+
+<div data-ng-controller="TeamsGeneralController" data-measure-type="Defense" data-sort-field="W" data-sort-direction="1">
+
+  <div class="row row5 collapse stats-filters-top">
+    <div class="columns large-1"><div stats-filter-select="" split="splits.Season" autorun="true" class="stats-filter-select"><div class="inner toggled" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">Season</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="Season" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="2018-19" value="object:8">2018-19</option><option label="2017-18" value="object:9">2017-18</option><option label="2016-17" value="object:10">2016-17</option><option label="2015-16" value="object:11">2015-16</option><option label="2014-15" value="object:12">2014-15</option><option label="2013-14" value="object:13">2013-14</option><option label="2012-13" value="object:14">2012-13</option><option label="2011-12" value="object:15" selected="selected">2011-12</option><option label="2010-11" value="object:16">2010-11</option><option label="2009-10" value="object:17">2009-10</option><option label="2008-09" value="object:18">2008-09</option><option label="2007-08" value="object:19">2007-08</option><option label="2006-07" value="object:20">2006-07</option><option label="2005-06" value="object:21">2005-06</option><option label="2004-05" value="object:22">2004-05</option><option label="2003-04" value="object:23">2003-04</option><option label="2002-03" value="object:24">2002-03</option><option label="2001-02" value="object:25">2001-02</option><option label="2000-01" value="object:26">2000-01</option><option label="1999-00" value="object:27">1999-00</option><option label="1998-99" value="object:28">1998-99</option><option label="1997-98" value="object:29">1997-98</option><option label="1996-97" value="object:30">1996-97</option></select>   </label></div></div></div>
+    <div class="columns large-1"><div stats-filter-select="" split="splits.SeasonType" autorun="true" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">Season Type</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="SeasonType" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="Preseason" value="object:32">Preseason</option><option label="Regular Season" value="object:33" selected="selected">Regular Season</option><option label="Playoffs" value="object:34">Playoffs</option><option label="All-Star" value="object:35">All-Star</option></select>   </label></div></div></div>
+    <div class="columns large-1"><div stats-filter-select="" split="splits.PerMode" autorun="true" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">Per Mode</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="PerMode" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="Totals" value="object:37">Totals</option><option label="Per Game" value="object:38" selected="selected">Per Game</option><option label="Per 100 Poss" value="object:39">Per 100 Poss</option><option label="Per 100 Plays" value="object:40">Per 100 Plays</option><option label="Per 48 Minutes" value="object:41">Per 48 Minutes</option><option label="Per 40 Minutes" value="object:42">Per 40 Minutes</option><option label="Per 36 Minutes" value="object:43">Per 36 Minutes</option><option label="Per 1 Minute" value="object:44">Per 1 Minute</option><option label="Per 1 Poss" value="object:45">Per 1 Poss</option><option label="Per 1 Play" value="object:46">Per 1 Play</option><option label="Minutes Per" value="object:47">Minutes Per</option></select>   </label></div></div></div>
+    <div class="columns large-1"><div stats-filter-combo="" label="Season Segment" split-group="[splits.LastNGames, splits.Month, splits.SeasonSegment]" autorun="true" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}"> <label>   <div class="label">Season Segment</div>   <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>   <select ng-model="selected" ng-change="setSplit(selected)" ng-options="v.text group by v.label for v in options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><optgroup label="Last N Games"><option label="All Games" value="object:49" selected="selected">All Games</option><option label="Last Game" value="object:50">Last Game</option><option label="Last 2 Games" value="object:51">Last 2 Games</option><option label="Last 3 Games" value="object:52">Last 3 Games</option><option label="Last 4 Games" value="object:53">Last 4 Games</option><option label="Last 5 Games" value="object:54">Last 5 Games</option><option label="Last 6 Games" value="object:55">Last 6 Games</option><option label="Last 7 Games" value="object:56">Last 7 Games</option><option label="Last 8 Games" value="object:57">Last 8 Games</option><option label="Last 9 Games" value="object:58">Last 9 Games</option><option label="Last 10 Games" value="object:59">Last 10 Games</option><option label="Last 11 Games" value="object:60">Last 11 Games</option><option label="Last 12 Games" value="object:61">Last 12 Games</option><option label="Last 13 Games" value="object:62">Last 13 Games</option><option label="Last 14 Games" value="object:63">Last 14 Games</option><option label="Last 15 Games" value="object:64">Last 15 Games</option></optgroup><optgroup label="Month"><option label="All Months" value="object:65">All Months</option><option label="January" value="object:66">January</option><option label="February" value="object:67">February</option><option label="March" value="object:68">March</option><option label="April" value="object:69">April</option><option label="May" value="object:70">May</option><option label="June" value="object:71">June</option><option label="July" value="object:72">July</option><option label="August" value="object:73">August</option><option label="September" value="object:74">September</option><option label="October" value="object:75">October</option><option label="November" value="object:76">November</option><option label="December" value="object:77">December</option></optgroup><optgroup label="Season Segment"><option label="Entire Season" value="object:78">Entire Season</option><option label="Pre All-Star" value="object:79">Pre All-Star</option><option label="Post All-Star" value="object:80">Post All-Star</option></optgroup></select> </label></div></div></div>
+    <div class="columns large-1 end"><a class="stats-filters-advanced__toggle" href="" ng-click="showSplits=!showSplits">Advanced Filters</a></div>
+  </div>
+
+  <div class="stats-filters-advanced ng-hide" ng-show="showSplits" aria-hidden="true">
+    <div class="row row5 collapse">
+      <div class="columns medium-1">
+        <div class="stats-filters-advanced__category">Player Bio</div>
+        <div stats-filter-select="" split="splits.PlayerPosition" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">Position</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="PlayerPosition" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="All Positions" value="object:82" selected="selected">All Positions</option><option label="Forward" value="object:83">Forward</option><option label="Center" value="object:84">Center</option><option label="Guard" value="object:85">Guard</option></select>   </label></div></div>
+        <!-- <div stats-filter-select split="splits.StarterBench"></div> -->
+        <div stats-filter-select="" split="splits.PlayerExperience" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">Experience</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="PlayerExperience" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="All Experience" value="object:87" selected="selected">All Experience</option><option label="Rookie" value="object:88">Rookie</option><option label="Sophomore" value="object:89">Sophomore</option><option label="Veteran" value="object:90">Veteran</option></select>   </label></div></div>
+      </div>
+      <div class="columns medium-1">
+        <div class="stats-filters-advanced__category">Team</div>
+        <div stats-filter-select="" split="splits.TeamID" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">Team</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="TeamID" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="All Teams" value="object:92" selected="selected">All Teams</option><option label="Atlanta Hawks" value="object:93">Atlanta Hawks</option><option label="Boston Celtics" value="object:94">Boston Celtics</option><option label="Brooklyn Nets" value="object:95">Brooklyn Nets</option><option label="Charlotte Hornets" value="object:96">Charlotte Hornets</option><option label="Chicago Bulls" value="object:97">Chicago Bulls</option><option label="Cleveland Cavaliers" value="object:98">Cleveland Cavaliers</option><option label="Dallas Mavericks" value="object:99">Dallas Mavericks</option><option label="Denver Nuggets" value="object:100">Denver Nuggets</option><option label="Detroit Pistons" value="object:101">Detroit Pistons</option><option label="Golden State Warriors" value="object:102">Golden State Warriors</option><option label="Houston Rockets" value="object:103">Houston Rockets</option><option label="Indiana Pacers" value="object:104">Indiana Pacers</option><option label="LA Clippers" value="object:105">LA Clippers</option><option label="Los Angeles Lakers" value="object:106">Los Angeles Lakers</option><option label="Memphis Grizzlies" value="object:107">Memphis Grizzlies</option><option label="Miami Heat" value="object:108">Miami Heat</option><option label="Milwaukee Bucks" value="object:109">Milwaukee Bucks</option><option label="Minnesota Timberwolves" value="object:110">Minnesota Timberwolves</option><option label="New Orleans Pelicans" value="object:111">New Orleans Pelicans</option><option label="New York Knicks" value="object:112">New York Knicks</option><option label="Oklahoma City Thunder" value="object:113">Oklahoma City Thunder</option><option label="Orlando Magic" value="object:114">Orlando Magic</option><option label="Philadelphia 76ers" value="object:115">Philadelphia 76ers</option><option label="Phoenix Suns" value="object:116">Phoenix Suns</option><option label="Portland Trail Blazers" value="object:117">Portland Trail Blazers</option><option label="Sacramento Kings" value="object:118">Sacramento Kings</option><option label="San Antonio Spurs" value="object:119">San Antonio Spurs</option><option label="Toronto Raptors" value="object:120">Toronto Raptors</option><option label="Utah Jazz" value="object:121">Utah Jazz</option><option label="Washington Wizards" value="object:122">Washington Wizards</option></select>   </label></div></div>
+        <div stats-filter-select="" split="splits.OpponentTeamID" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">VS Opponent</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="OpponentTeamID" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="VS All Teams" value="object:124" selected="selected">VS All Teams</option><option label="VS Atlanta Hawks" value="object:125">VS Atlanta Hawks</option><option label="VS Boston Celtics" value="object:126">VS Boston Celtics</option><option label="VS Brooklyn Nets" value="object:127">VS Brooklyn Nets</option><option label="VS Charlotte Hornets" value="object:128">VS Charlotte Hornets</option><option label="VS Chicago Bulls" value="object:129">VS Chicago Bulls</option><option label="VS Cleveland Cavaliers" value="object:130">VS Cleveland Cavaliers</option><option label="VS Dallas Mavericks" value="object:131">VS Dallas Mavericks</option><option label="VS Denver Nuggets" value="object:132">VS Denver Nuggets</option><option label="VS Detroit Pistons" value="object:133">VS Detroit Pistons</option><option label="VS Golden State Warriors" value="object:134">VS Golden State Warriors</option><option label="VS Houston Rockets" value="object:135">VS Houston Rockets</option><option label="VS Indiana Pacers" value="object:136">VS Indiana Pacers</option><option label="VS LA Clippers" value="object:137">VS LA Clippers</option><option label="VS Los Angeles Lakers" value="object:138">VS Los Angeles Lakers</option><option label="VS Memphis Grizzlies" value="object:139">VS Memphis Grizzlies</option><option label="VS Miami Heat" value="object:140">VS Miami Heat</option><option label="VS Milwaukee Bucks" value="object:141">VS Milwaukee Bucks</option><option label="VS Minnesota Timberwolves" value="object:142">VS Minnesota Timberwolves</option><option label="VS New Orleans Pelicans" value="object:143">VS New Orleans Pelicans</option><option label="VS New York Knicks" value="object:144">VS New York Knicks</option><option label="VS Oklahoma City Thunder" value="object:145">VS Oklahoma City Thunder</option><option label="VS Orlando Magic" value="object:146">VS Orlando Magic</option><option label="VS Philadelphia 76ers" value="object:147">VS Philadelphia 76ers</option><option label="VS Phoenix Suns" value="object:148">VS Phoenix Suns</option><option label="VS Portland Trail Blazers" value="object:149">VS Portland Trail Blazers</option><option label="VS Sacramento Kings" value="object:150">VS Sacramento Kings</option><option label="VS San Antonio Spurs" value="object:151">VS San Antonio Spurs</option><option label="VS Toronto Raptors" value="object:152">VS Toronto Raptors</option><option label="VS Utah Jazz" value="object:153">VS Utah Jazz</option><option label="VS Washington Wizards" value="object:154">VS Washington Wizards</option></select>   </label></div></div>
+        <div stats-filter-select="" split="splits.Division" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">Division</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="Division" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="All Divisions" value="object:156" selected="selected">All Divisions</option><option label="Atlantic" value="object:157">Atlantic</option><option label="Central" value="object:158">Central</option><option label="Southeast" value="object:159">Southeast</option><option label="Northwest" value="object:160">Northwest</option><option label="Pacific" value="object:161">Pacific</option><option label="Southwest" value="object:162">Southwest</option></select>   </label></div></div>
+        <div stats-filter-select="" split="splits.VsDivision" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">VS Division</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="VsDivision" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="VS All Divisions" value="object:164" selected="selected">VS All Divisions</option><option label="VS Atlantic" value="object:165">VS Atlantic</option><option label="VS Central" value="object:166">VS Central</option><option label="VS Southeast" value="object:167">VS Southeast</option><option label="VS Pacific" value="object:168">VS Pacific</option><option label="VS Northwest" value="object:169">VS Northwest</option><option label="VS Southwest" value="object:170">VS Southwest</option></select>   </label></div></div>
+        <div stats-filter-select="" split="splits.Conference" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">Conference</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="Conference" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="All Conferences" value="object:172" selected="selected">All Conferences</option><option label="East" value="object:173">East</option><option label="West" value="object:174">West</option></select>   </label></div></div>
+        <div stats-filter-select="" split="splits.VsConference" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">VS Conference</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="VsConference" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="VS All Conferences" value="object:176" selected="selected">VS All Conferences</option><option label="VS East" value="object:177">VS East</option><option label="VS West" value="object:178">VS West</option></select>   </label></div></div>
+      </div>
+      <div class="columns medium-1">
+        <div class="stats-filters-advanced__category">Game Situation</div>
+        <div stats-filter-select="" split="splits.Outcome" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">Outcome</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="Outcome" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="All Outcomes" value="object:180" selected="selected">All Outcomes</option><option label="Wins" value="object:181">Wins</option><option label="Losses" value="object:182">Losses</option></select>   </label></div></div>
+        <div stats-filter-select="" split="splits.Location" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">Location</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="Location" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="All Locations" value="object:184" selected="selected">All Locations</option><option label="Home" value="object:185">Home</option><option label="Road" value="object:186">Road</option></select>   </label></div></div>
+        <div stats-filter-select="" split="splits.Period" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">Quarter</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="Period" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="All Quarters" value="object:188" selected="selected">All Quarters</option><option label="1st Quarter" value="object:189">1st Quarter</option><option label="2nd Quarter" value="object:190">2nd Quarter</option><option label="3rd Quarter" value="object:191">3rd Quarter</option><option label="4th Quarter" value="object:192">4th Quarter</option><option label="OT 1" value="object:193">OT 1</option><option label="OT 2" value="object:194">OT 2</option><option label="OT 3" value="object:195">OT 3</option><option label="OT 4" value="object:196">OT 4</option><option label="OT 5" value="object:197">OT 5</option><option label="OT 6" value="object:198">OT 6</option><option label="OT 7" value="object:199">OT 7</option><option label="OT 8" value="object:200">OT 8</option><option label="OT 9" value="object:201">OT 9</option><option label="OT 10" value="object:202">OT 10</option></select>   </label></div></div>
+        <div stats-filter-select="" split="splits.GameSegment" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">By Half</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="GameSegment" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="Entire Game" value="object:204" selected="selected">Entire Game</option><option label="First Half" value="object:205">First Half</option><option label="Second Half" value="object:206">Second Half</option><option label="Overtime" value="object:207">Overtime</option></select>   </label></div></div>
+      </div>
+      <div class="columns medium-1">
+        <div class="stats-filters-advanced__category">Date Range</div>
+        <div stats-filter-select="" split="splits.PORound" class="stats-filter-select"><div class="inner" ng-class="{toggled: (split.selected.val!=split.default)}">   <label>     <div class="label">Playoff Round</div>     <div class="reset" ng-click="resetSplit();" role="button" tabindex="0"><i class="fa fa-times" aria-hidden="true"></i></div>     <select name="PORound" ng-model="split.selected" ng-change="setSplit(split.selected)" ng-options="v.text for v in split.options" class="ng-pristine ng-untouched ng-valid ng-not-empty" aria-invalid="false"><option label="All Playoff Rounds" value="object:209" selected="selected">All Playoff Rounds</option><option label="Conference Quarter-Finals" value="object:210">Conference Quarter-Finals</option><option label="Conference Semi-Finals" value="object:211">Conference Semi-Finals</option><option label="Conference Finals" value="object:212">Conference Finals</option><option label="Finals" value="object:213">Finals</option></select>   </label></div></div>
+        <div stats-filter-date="" split="splits.DateFrom" class="stats-filter-date"><div class="inner">  <div class="label">Date From</div>  <input type="text" placeholder="MM/DD/YYYY" name="DateFrom" class="form-control ng-pristine ng-untouched ng-valid ng-empty" ng-click="showCal=!showCal;" ng-model="split.selected.val" aria-invalid="false">  <div class="stats-calendar-dropdown ng-hide" ng-show="showCal==true" aria-hidden="true">    <div class="date-picker-splash">      <stats-calendar data-date="dt" data-is-open="showCal"><!---->
+</stats-calendar>    </div>  </div></div></div>
+        <div stats-filter-date="" split="splits.DateTo" class="stats-filter-date"><div class="inner">  <div class="label">Date To</div>  <input type="text" placeholder="MM/DD/YYYY" name="DateTo" class="form-control ng-pristine ng-untouched ng-valid ng-empty" ng-click="showCal=!showCal;" ng-model="split.selected.val" aria-invalid="false">  <div class="stats-calendar-dropdown ng-hide" ng-show="showCal==true" aria-hidden="true">    <div class="date-picker-splash">      <stats-calendar data-date="dt" data-is-open="showCal"><!---->
+</stats-calendar>    </div>  </div></div></div>
+      </div>
+      <div class="columns medium-1">
+        <div class="stats-filters-advanced__category">Custom Filters</div>
+        <div stats-custom-filters="" fields="customFields" filters="filters" class="stats-custom-filters"><!----><div>   <a class="add-filter" ng-click="addFilter()" ng-show="filters.length < maxFilters" aria-hidden="false"><i class="fa fa-plus" aria-hidden="true"></i>&nbsp;Add Custom Filter</a></div></div>
+      </div>
+    </div>
+    <div class="stats-filters-advanced__bottom">
+      <stats-filter-reset><a href="" ng-click="reset();"><i class="fa fa-refresh" aria-hidden="true"></i> Reset Filters</a></stats-filter-reset>
+      <stats-run-it><a href="" class="run-it" ripple="" ng-click="runit();">Run It</a></stats-run-it>
+    </div>
+  </div>
+
+  <div class="row stats-pill-section nba-m-t-1 nba-m-b-1">
+    <div class="columns medium-6">
+      <stats-filter-pills><!----><a class="stats-filter-pill stats-filter-pill--param" href="" ng-repeat="p in activeParams | orderBy:'order'" ng-click="resetParam(p)"> <span class="stats-filter-pill__text">2011-12</span> <i class="fa fa-angle-right" aria-hidden="true"></i> <i class="fa fa-angle-left" aria-hidden="true"></i></a><!----><!----></stats-filter-pills>
+    </div>
+    <div class="columns medium-6 text-right">
+      <stats-recent-filters class="stats-recent-filters"> <a class="stats-recent-filters__toggle" ng-click="showRecent=!showRecent;">   <i class="fa fa-clock-o" aria-hidden="true"></i> Recent Filters </a> <!----></stats-recent-filters>
+      <stats-glossary-toggle toggle="showGlossary" class="stats-glossary-toggle"> <a class="stats-glossary-toggle__link" ng-class="{'stats-glossary-toggle__link--opened':toggle}" ng-click="toggle=!toggle;">   <i class="fa fa-book" aria-hidden="true"></i> Glossary </a></stats-glossary-toggle>
+      <stats-share-button data-title="" class="stats-share-button"> <a class="stats-share-button__link" ng-class="{'stats-share-button__link--opened':vm.showSharePanel}" ng-click="vm.showSharePanel = !vm.showSharePanel;">   <i class="fa fa-share-alt" aria-hidden="true"></i> Share </a> <div class="stats-share-button__panel ng-hide" ng-show="vm.showSharePanel" aria-hidden="true">   <div class="stats-share-button__inner">     <span class="stats-share-button__label">Share on:</span>     <a class="stats-share-button__icon" target="_blank" rel="noopener nofollow" href="http://www.facebook.com/sharer/sharer.php?u=&amp;title="><i class="fa fa-facebook"></i></a>     <a class="stats-share-button__icon" target="_blank" rel="noopener nofollow" href="https://twitter.com/intent/tweet?url=&amp;via=nbastats&amp;text="><i class="fa fa-twitter"></i></a>     <input class="stats-share-button__text-input" type="text" ng-value="vm.url">   </div> </div></stats-share-button>
+    </div>
+  </div> <!-- .stats-pill-section -->
+
+  <div class="stats-glossary ng-hide" ng-show="showGlossary" aria-hidden="true">
+    <dl>
+      <dt>GP</dt>
+      <dd>Games Played</dd>
+
+      <dt>W</dt>
+      <dd>Wins</dd>
+
+      <dt>L</dt>
+      <dd>Losses</dd>
+
+      <dt>MIN</dt>
+      <dd>Minutes Played</dd>
+
+      <dt>DEF RTG</dt>
+      <dd>Defensive Rating</dd>
+
+      <dt>DREB</dt>
+      <dd>Defensive Rebounds</dd>
+
+      <dt>DREB%</dt>
+      <dd>Defensive Rebound Percentage</dd>
+
+      <dt>STL</dt>
+      <dd>Steals</dd>
+
+      <dt>BLK</dt>
+      <dd>Blocks</dd>
+
+      <dt>OPP PTS OFF TOV</dt>
+      <dd>Opponent Points Off Turnovers</dd>
+
+      <dt>OPP PTS 2ND CHANCE</dt>
+      <dd>Opponent 2nd Chance Points</dd>
+
+      <dt>OPP PTS FB</dt>
+      <dd>Opponent Fast Break Points</dd>
+
+      <dt>OPP PTS PAINT</dt>
+      <dd>Opponent Points in the Paint</dd>
+    </dl>
+  </div> <!-- .stats-glossary -->
+
+  <div stats-loader="isLoading"><!----></div>
+  <div stats-no-data-msg="noData &amp;&amp; !isLoading"><!----><!----></div>
+
+
+  <!----><nba-stat-table ng-if="!isLoading &amp;&amp; !noData" rows="teamStats.rows" params="params" filters="filters" options="options" template="teams/teams-defense"><div stats-table-pagination="" data-location="top" class="stats-table-pagination"><!----></div><div class="nba-stat-table">
+  <div class="nba-stat-table__overflow" data-fixed="2" role="grid">
+    <table class="table">
+      <thead>
+        <tr>
+          <th></th>
+          <th sort="" cf="" data-field="TEAM_NAME" class="text" ripple=""><br>TEAM</th>
+          <th sort="" cf="" data-field="GP" data-rank="" data-dir="-1" ripple="">GP</th>
+          <th sort="" cf="" data-field="W" data-rank="" data-dir="-1" ripple="">W</th>
+          <th sort="" cf="" data-field="L" data-rank="" data-dir="-1" ripple="">L</th>
+          <th sort="" cf="" data-field="MIN" data-rank="" data-dir="-1" ripple="">MIN</th>
+          <th sort="" cf="" data-field="DEF_RATING" data-rank="" data-dir="-1" ripple="" class="sorted asc">DEF&nbsp;RTG</th>
+          <th sort="" cf="" data-field="DREB" data-rank="" data-dir="-1" ripple="">DREB</th>
+          <th sort="" cf="" data-field="DREB_PCT" data-rank="" data-dir="-1" ripple="">DREB%</th>
+          <th sort="" cf="" data-field="STL" data-rank="" data-dir="-1" ripple="">STL</th>
+          <th sort="" cf="" data-field="BLK" data-rank="" data-dir="-1" ripple="">BLK</th>
+          <th sort="" cf="" data-field="OPP_PTS_OFF_TOV" data-rank="" data-dir="-1" ripple="">OPP&nbsp;PTS<br>OFF&nbsp;TOV</th>
+          <th sort="" cf="" data-field="OPP_PTS_2ND_CHANCE" data-rank="" data-dir="-1" ripple="">OPP&nbsp;PTS<br>2ND&nbsp;CHANCE</th>
+          <th sort="" cf="" data-field="OPP_PTS_FB" data-rank="" data-dir="-1" ripple="">OPP&nbsp;PTS<br>FB</th>
+          <th sort="" cf="" data-field="OPP_PTS_PAINT" data-rank="" data-dir="-1" ripple="">OPP&nbsp;PTS<br>PAINT</th>
+          <th sort="" cf="" hidden="" data-field="GP_RANK" ripple="">GP RANK</th>
+          <th sort="" cf="" hidden="" data-field="W_RANK" ripple="">W RANK</th>
+          <th sort="" cf="" hidden="" data-field="L_RANK" ripple="">L RANK</th>
+          <th sort="" cf="" hidden="" data-field="MIN_RANK" ripple="">MIN RANK</th>
+          <th sort="" cf="" hidden="" data-field="DEF_RATING_RANK" ripple="">DEF&nbsp;RTG RANK</th>
+          <th sort="" cf="" hidden="" data-field="DREB_RANK" ripple="">DREB RANK</th>
+          <th sort="" cf="" hidden="" data-field="DREB_PCT_RANK" ripple="">DREB% RANK</th>
+          <th sort="" cf="" hidden="" data-field="STL_RANK" ripple="">STL RANK</th>
+          <th sort="" cf="" hidden="" data-field="BLK_RANK" ripple="">BLK RANK</th>
+          <th sort="" cf="" hidden="" data-field="OPP_PTS_OFF_TOV_RANK" ripple="">OPP&nbsp;PTS<br>OFF&nbsp;TOV RANK</th>
+          <th sort="" cf="" hidden="" data-field="OPP_PTS_2ND_CHANCE_RANK" ripple="">OPP&nbsp;PTS<br>2ND&nbsp;CHANCE RANK</th>
+          <th sort="" cf="" hidden="" data-field="OPP_PTS_FB_RANK" ripple="">OPP&nbsp;PTS<br>FB RANK</th>
+          <th sort="" cf="" hidden="" data-field="OPP_PTS_PAINT_RANK" ripple="">OPP&nbsp;PTS<br>PAINT RANK</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="0">
+          <td class="rank">1</td>
+          <td class="team-name first"><a href="/team/1610612741/traditional/?">Chicago Bulls</a></td>
+          <td>66</td>
+          <td>50</td>
+          <td>16</td>
+          <td>48.3</td>
+          <td class="sorted">97.4</td>
+          <td>32.8</td>
+          <td>70.3</td>
+          <td>6.9</td>
+          <td>5.9</td>
+          <td>15.4</td>
+          <td>11.9</td>
+          <td>12.1</td>
+          <td>38.2</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="1">
+          <td class="rank">2</td>
+          <td class="team-name first"><a href="/team/1610612738/traditional/?">Boston Celtics</a></td>
+          <td>66</td>
+          <td>39</td>
+          <td>27</td>
+          <td>48.3</td>
+          <td class="sorted">97.5</td>
+          <td>31.1</td>
+          <td>68.6</td>
+          <td>7.5</td>
+          <td>5.5</td>
+          <td>16.2</td>
+          <td>13.5</td>
+          <td>11.5</td>
+          <td>39.8</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="2">
+          <td class="rank">3</td>
+          <td class="team-name first"><a href="/team/1610612755/traditional/?">Philadelphia 76ers</a></td>
+          <td>66</td>
+          <td>35</td>
+          <td>31</td>
+          <td>48.2</td>
+          <td class="sorted">98.2</td>
+          <td>32.5</td>
+          <td>71.2</td>
+          <td>8.0</td>
+          <td>5.2</td>
+          <td>11.6</td>
+          <td>11.7</td>
+          <td>10.2</td>
+          <td>36.4</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="3">
+          <td class="rank">4</td>
+          <td class="team-name first"><a href="/team/1610612748/traditional/?">Miami Heat</a></td>
+          <td>66</td>
+          <td>46</td>
+          <td>20</td>
+          <td>48.6</td>
+          <td class="sorted">99.2</td>
+          <td>31.2</td>
+          <td>69.3</td>
+          <td>8.9</td>
+          <td>5.4</td>
+          <td>16.6</td>
+          <td>13.1</td>
+          <td>11.9</td>
+          <td>36.6</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="4">
+          <td class="rank">5</td>
+          <td class="team-name first"><a href="/team/1610612752/traditional/?">New York Knicks</a></td>
+          <td>66</td>
+          <td>36</td>
+          <td>30</td>
+          <td>48.3</td>
+          <td class="sorted">100.2</td>
+          <td>30.5</td>
+          <td>70.2</td>
+          <td>9.4</td>
+          <td>4.2</td>
+          <td>17.8</td>
+          <td>12.6</td>
+          <td>12.4</td>
+          <td>38.9</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="5">
+          <td class="rank">6</td>
+          <td class="team-name first"><a href="/team/1610612737/traditional/?">Atlanta Hawks</a></td>
+          <td>66</td>
+          <td>40</td>
+          <td>26</td>
+          <td>49.0</td>
+          <td class="sorted">100.3</td>
+          <td>31.3</td>
+          <td>70.3</td>
+          <td>8.1</td>
+          <td>4.6</td>
+          <td>16.0</td>
+          <td>12.6</td>
+          <td>12.0</td>
+          <td>40.5</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="6">
+          <td class="rank">7</td>
+          <td class="team-name first"><a href="/team/1610612763/traditional/?">Memphis Grizzlies</a></td>
+          <td>66</td>
+          <td>41</td>
+          <td>25</td>
+          <td>48.3</td>
+          <td class="sorted">100.6</td>
+          <td>29.5</td>
+          <td>68.8</td>
+          <td>9.6</td>
+          <td>5.2</td>
+          <td>16.0</td>
+          <td>12.5</td>
+          <td>12.1</td>
+          <td>40.3</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="7">
+          <td class="rank">8</td>
+          <td class="team-name first"><a href="/team/1610612742/traditional/?">Dallas Mavericks</a></td>
+          <td>66</td>
+          <td>36</td>
+          <td>30</td>
+          <td>48.7</td>
+          <td class="sorted">100.9</td>
+          <td>32.7</td>
+          <td>71.4</td>
+          <td>8.6</td>
+          <td>5.1</td>
+          <td>15.8</td>
+          <td>12.3</td>
+          <td>14.4</td>
+          <td>38.9</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="8">
+          <td class="rank">9</td>
+          <td class="team-name first"><a href="/team/1610612760/traditional/?">Oklahoma City Thunder</a></td>
+          <td>66</td>
+          <td>47</td>
+          <td>19</td>
+          <td>48.5</td>
+          <td class="sorted">102.1</td>
+          <td>32.7</td>
+          <td>68.7</td>
+          <td>7.5</td>
+          <td>8.2</td>
+          <td>16.7</td>
+          <td>14.7</td>
+          <td>12.3</td>
+          <td>42.4</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="9">
+          <td class="rank">10</td>
+          <td class="team-name first"><a href="/team/1610612754/traditional/?">Indiana Pacers</a></td>
+          <td>66</td>
+          <td>42</td>
+          <td>24</td>
+          <td>48.5</td>
+          <td class="sorted">102.1</td>
+          <td>31.4</td>
+          <td>68.9</td>
+          <td>7.9</td>
+          <td>5.4</td>
+          <td>15.1</td>
+          <td>13.0</td>
+          <td>12.5</td>
+          <td>38.1</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="10">
+          <td class="rank">11</td>
+          <td class="team-name first"><a href="/team/1610612759/traditional/?">San Antonio Spurs</a></td>
+          <td>66</td>
+          <td>50</td>
+          <td>16</td>
+          <td>48.3</td>
+          <td class="sorted">102.3</td>
+          <td>32.6</td>
+          <td>72.0</td>
+          <td>7.4</td>
+          <td>4.4</td>
+          <td>15.2</td>
+          <td>11.1</td>
+          <td>14.0</td>
+          <td>40.5</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="11">
+          <td class="rank">12</td>
+          <td class="team-name first"><a href="/team/1610612747/traditional/?">Los Angeles Lakers</a></td>
+          <td>66</td>
+          <td>41</td>
+          <td>25</td>
+          <td>48.7</td>
+          <td class="sorted">103.1</td>
+          <td>34.1</td>
+          <td>71.9</td>
+          <td>5.9</td>
+          <td>5.3</td>
+          <td>16.6</td>
+          <td>12.7</td>
+          <td>15.1</td>
+          <td>40.4</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="12">
+          <td class="rank">13</td>
+          <td class="team-name first"><a href="/team/1610612753/traditional/?">Orlando Magic</a></td>
+          <td>66</td>
+          <td>37</td>
+          <td>29</td>
+          <td>48.4</td>
+          <td class="sorted">103.3</td>
+          <td>31.2</td>
+          <td>72.0</td>
+          <td>6.8</td>
+          <td>4.2</td>
+          <td>16.2</td>
+          <td>11.8</td>
+          <td>10.9</td>
+          <td>37.4</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="13">
+          <td class="rank">14</td>
+          <td class="team-name first"><a href="/team/1610612761/traditional/?">Toronto Raptors</a></td>
+          <td>66</td>
+          <td>23</td>
+          <td>43</td>
+          <td>48.4</td>
+          <td class="sorted">103.6</td>
+          <td>31.4</td>
+          <td>70.8</td>
+          <td>6.5</td>
+          <td>4.9</td>
+          <td>15.4</td>
+          <td>12.3</td>
+          <td>12.5</td>
+          <td>37.6</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="14">
+          <td class="rank">15</td>
+          <td class="team-name first"><a href="/team/1610612740/traditional/?">New Orleans Hornets</a></td>
+          <td>66</td>
+          <td>21</td>
+          <td>45</td>
+          <td>48.3</td>
+          <td class="sorted">103.9</td>
+          <td>30.2</td>
+          <td>69.6</td>
+          <td>7.4</td>
+          <td>4.8</td>
+          <td>17.7</td>
+          <td>13.3</td>
+          <td>12.9</td>
+          <td>40.9</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="15">
+          <td class="rank">16</td>
+          <td class="team-name first"><a href="/team/1610612745/traditional/?">Houston Rockets</a></td>
+          <td>66</td>
+          <td>34</td>
+          <td>32</td>
+          <td>48.7</td>
+          <td class="sorted">103.9</td>
+          <td>30.5</td>
+          <td>69.2</td>
+          <td>7.5</td>
+          <td>4.8</td>
+          <td>16.7</td>
+          <td>13.3</td>
+          <td>13.7</td>
+          <td>44.5</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="16">
+          <td class="rank">17</td>
+          <td class="team-name first"><a href="/team/1610612749/traditional/?">Milwaukee Bucks</a></td>
+          <td>66</td>
+          <td>31</td>
+          <td>35</td>
+          <td>48.1</td>
+          <td class="sorted">104.1</td>
+          <td>30.0</td>
+          <td>67.5</td>
+          <td>8.3</td>
+          <td>5.1</td>
+          <td>16.5</td>
+          <td>13.8</td>
+          <td>13.4</td>
+          <td>41.4</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="17">
+          <td class="rank">18</td>
+          <td class="team-name first"><a href="/team/1610612746/traditional/?">Los Angeles Clippers</a></td>
+          <td>66</td>
+          <td>40</td>
+          <td>26</td>
+          <td>48.4</td>
+          <td class="sorted">104.8</td>
+          <td>29.4</td>
+          <td>69.2</td>
+          <td>8.4</td>
+          <td>4.8</td>
+          <td>15.1</td>
+          <td>12.9</td>
+          <td>12.3</td>
+          <td>38.6</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="18">
+          <td class="rank">19</td>
+          <td class="team-name first"><a href="/team/1610612762/traditional/?">Utah Jazz</a></td>
+          <td>66</td>
+          <td>36</td>
+          <td>30</td>
+          <td>49.0</td>
+          <td class="sorted">104.9</td>
+          <td>31.1</td>
+          <td>70.3</td>
+          <td>8.3</td>
+          <td>5.8</td>
+          <td>15.3</td>
+          <td>12.2</td>
+          <td>14.4</td>
+          <td>42.3</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="19">
+          <td class="rank">20</td>
+          <td class="team-name first"><a href="/team/1610612765/traditional/?">Detroit Pistons</a></td>
+          <td>66</td>
+          <td>25</td>
+          <td>41</td>
+          <td>48.4</td>
+          <td class="sorted">104.9</td>
+          <td>28.5</td>
+          <td>68.9</td>
+          <td>7.0</td>
+          <td>4.2</td>
+          <td>18.4</td>
+          <td>12.2</td>
+          <td>14.0</td>
+          <td>40.1</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="20">
+          <td class="rank">21</td>
+          <td class="team-name first"><a href="/team/1610612764/traditional/?">Washington Wizards</a></td>
+          <td>66</td>
+          <td>20</td>
+          <td>46</td>
+          <td>48.1</td>
+          <td class="sorted">104.9</td>
+          <td>29.9</td>
+          <td>67.8</td>
+          <td>8.0</td>
+          <td>6.3</td>
+          <td>18.2</td>
+          <td>14.5</td>
+          <td>14.5</td>
+          <td>40.7</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="21">
+          <td class="rank">22</td>
+          <td class="team-name first"><a href="/team/1610612743/traditional/?">Denver Nuggets</a></td>
+          <td>66</td>
+          <td>38</td>
+          <td>28</td>
+          <td>48.6</td>
+          <td class="sorted">105.1</td>
+          <td>31.9</td>
+          <td>70.5</td>
+          <td>8.2</td>
+          <td>5.0</td>
+          <td>17.3</td>
+          <td>12.6</td>
+          <td>12.2</td>
+          <td>39.5</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="22">
+          <td class="rank">23</td>
+          <td class="team-name first"><a href="/team/1610612756/traditional/?">Phoenix Suns</a></td>
+          <td>66</td>
+          <td>33</td>
+          <td>33</td>
+          <td>48.0</td>
+          <td class="sorted">105.2</td>
+          <td>30.8</td>
+          <td>68.7</td>
+          <td>6.5</td>
+          <td>5.5</td>
+          <td>15.2</td>
+          <td>14.2</td>
+          <td>12.6</td>
+          <td>43.4</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="23">
+          <td class="rank">24</td>
+          <td class="team-name first"><a href="/team/1610612750/traditional/?">Minnesota Timberwolves</a></td>
+          <td>66</td>
+          <td>26</td>
+          <td>40</td>
+          <td>48.3</td>
+          <td class="sorted">105.3</td>
+          <td>31.7</td>
+          <td>69.3</td>
+          <td>6.6</td>
+          <td>4.4</td>
+          <td>18.4</td>
+          <td>14.0</td>
+          <td>15.8</td>
+          <td>44.1</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="24">
+          <td class="rank">25</td>
+          <td class="team-name first"><a href="/team/1610612757/traditional/?">Portland Trail Blazers</a></td>
+          <td>66</td>
+          <td>28</td>
+          <td>38</td>
+          <td>48.4</td>
+          <td class="sorted">105.3</td>
+          <td>29.5</td>
+          <td>69.1</td>
+          <td>8.0</td>
+          <td>4.9</td>
+          <td>16.0</td>
+          <td>13.4</td>
+          <td>14.3</td>
+          <td>42.2</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="25">
+          <td class="rank">26</td>
+          <td class="team-name first"><a href="/team/1610612744/traditional/?">Golden State Warriors</a></td>
+          <td>66</td>
+          <td>23</td>
+          <td>43</td>
+          <td>48.2</td>
+          <td class="sorted">107.2</td>
+          <td>29.5</td>
+          <td>65.8</td>
+          <td>8.0</td>
+          <td>5.5</td>
+          <td>16.2</td>
+          <td>15.3</td>
+          <td>14.4</td>
+          <td>43.1</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="26">
+          <td class="rank">27</td>
+          <td class="team-name first"><a href="/team/1610612739/traditional/?">Cleveland Cavaliers</a></td>
+          <td>66</td>
+          <td>21</td>
+          <td>45</td>
+          <td>48.4</td>
+          <td class="sorted">107.6</td>
+          <td>29.5</td>
+          <td>68.3</td>
+          <td>7.1</td>
+          <td>4.0</td>
+          <td>16.9</td>
+          <td>14.5</td>
+          <td>11.7</td>
+          <td>43.6</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="27">
+          <td class="rank">28</td>
+          <td class="team-name first"><a href="/team/1610612751/traditional/?">New Jersey Nets</a></td>
+          <td>66</td>
+          <td>22</td>
+          <td>44</td>
+          <td>48.2</td>
+          <td class="sorted">108.1</td>
+          <td>28.5</td>
+          <td>67.7</td>
+          <td>7.5</td>
+          <td>3.9</td>
+          <td>17.7</td>
+          <td>13.6</td>
+          <td>14.8</td>
+          <td>44.2</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="28">
+          <td class="rank">29</td>
+          <td class="team-name first"><a href="/team/1610612758/traditional/?">Sacramento Kings</a></td>
+          <td>66</td>
+          <td>22</td>
+          <td>44</td>
+          <td>48.2</td>
+          <td class="sorted">108.7</td>
+          <td>29.5</td>
+          <td>67.0</td>
+          <td>8.5</td>
+          <td>4.9</td>
+          <td>17.8</td>
+          <td>14.4</td>
+          <td>17.1</td>
+          <td>48.2</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="29">
+          <td class="rank">30</td>
+          <td class="team-name first"><a href="/team/1610612766/traditional/?">Charlotte Bobcats</a></td>
+          <td>66</td>
+          <td>7</td>
+          <td>59</td>
+          <td>48.2</td>
+          <td class="sorted">109.4</td>
+          <td>28.7</td>
+          <td>67.8</td>
+          <td>6.0</td>
+          <td>5.5</td>
+          <td>17.2</td>
+          <td>15.4</td>
+          <td>16.0</td>
+          <td>48.3</td>
+        </tr><!---->
+      </tbody>
+    </table>
+
+  </div> <!-- .stat-table__overflow -->
+<div class="nba-stat-table__overlay" data-fixed="2" role="grid">
+    <table class="table">
+      <thead>
+        <tr>
+          <th></th>
+          <th sort="" cf="" data-field="TEAM_NAME" class="text" ripple=""><br>TEAM</th>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr>
+      </thead>
+      <tbody>
+        <!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="0">
+          <td class="rank">1</td>
+          <td class="team-name first"><a href="/team/1610612741/traditional/?">Chicago Bulls</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="1">
+          <td class="rank">2</td>
+          <td class="team-name first"><a href="/team/1610612738/traditional/?">Boston Celtics</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="2">
+          <td class="rank">3</td>
+          <td class="team-name first"><a href="/team/1610612755/traditional/?">Philadelphia 76ers</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="3">
+          <td class="rank">4</td>
+          <td class="team-name first"><a href="/team/1610612748/traditional/?">Miami Heat</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="4">
+          <td class="rank">5</td>
+          <td class="team-name first"><a href="/team/1610612752/traditional/?">New York Knicks</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="5">
+          <td class="rank">6</td>
+          <td class="team-name first"><a href="/team/1610612737/traditional/?">Atlanta Hawks</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="6">
+          <td class="rank">7</td>
+          <td class="team-name first"><a href="/team/1610612763/traditional/?">Memphis Grizzlies</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="7">
+          <td class="rank">8</td>
+          <td class="team-name first"><a href="/team/1610612742/traditional/?">Dallas Mavericks</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="8">
+          <td class="rank">9</td>
+          <td class="team-name first"><a href="/team/1610612760/traditional/?">Oklahoma City Thunder</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="9">
+          <td class="rank">10</td>
+          <td class="team-name first"><a href="/team/1610612754/traditional/?">Indiana Pacers</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="10">
+          <td class="rank">11</td>
+          <td class="team-name first"><a href="/team/1610612759/traditional/?">San Antonio Spurs</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="11">
+          <td class="rank">12</td>
+          <td class="team-name first"><a href="/team/1610612747/traditional/?">Los Angeles Lakers</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="12">
+          <td class="rank">13</td>
+          <td class="team-name first"><a href="/team/1610612753/traditional/?">Orlando Magic</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="13">
+          <td class="rank">14</td>
+          <td class="team-name first"><a href="/team/1610612761/traditional/?">Toronto Raptors</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="14">
+          <td class="rank">15</td>
+          <td class="team-name first"><a href="/team/1610612740/traditional/?">New Orleans Hornets</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="15">
+          <td class="rank">16</td>
+          <td class="team-name first"><a href="/team/1610612745/traditional/?">Houston Rockets</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="16">
+          <td class="rank">17</td>
+          <td class="team-name first"><a href="/team/1610612749/traditional/?">Milwaukee Bucks</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="17">
+          <td class="rank">18</td>
+          <td class="team-name first"><a href="/team/1610612746/traditional/?">Los Angeles Clippers</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="18">
+          <td class="rank">19</td>
+          <td class="team-name first"><a href="/team/1610612762/traditional/?">Utah Jazz</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="19">
+          <td class="rank">20</td>
+          <td class="team-name first"><a href="/team/1610612765/traditional/?">Detroit Pistons</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="20">
+          <td class="rank">21</td>
+          <td class="team-name first"><a href="/team/1610612764/traditional/?">Washington Wizards</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="21">
+          <td class="rank">22</td>
+          <td class="team-name first"><a href="/team/1610612743/traditional/?">Denver Nuggets</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="22">
+          <td class="rank">23</td>
+          <td class="team-name first"><a href="/team/1610612756/traditional/?">Phoenix Suns</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="23">
+          <td class="rank">24</td>
+          <td class="team-name first"><a href="/team/1610612750/traditional/?">Minnesota Timberwolves</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="24">
+          <td class="rank">25</td>
+          <td class="team-name first"><a href="/team/1610612757/traditional/?">Portland Trail Blazers</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="25">
+          <td class="rank">26</td>
+          <td class="team-name first"><a href="/team/1610612744/traditional/?">Golden State Warriors</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="26">
+          <td class="rank">27</td>
+          <td class="team-name first"><a href="/team/1610612739/traditional/?">Cleveland Cavaliers</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="27">
+          <td class="rank">28</td>
+          <td class="team-name first"><a href="/team/1610612751/traditional/?">New Jersey Nets</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="28">
+          <td class="rank">29</td>
+          <td class="team-name first"><a href="/team/1610612758/traditional/?">Sacramento Kings</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="29">
+          <td class="rank">30</td>
+          <td class="team-name first"><a href="/team/1610612766/traditional/?">Charlotte Bobcats</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!---->
+      </tbody>
+    </table>
+
+  </div></div> <!-- .stat-table -->
+<div stats-table-pagination="" data-location="bottom" class="stats-table-pagination"><!----></div></nba-stat-table><!---->
+
+
+</div> <!-- .stats-splits -->
+    </div>
+  </div>
+
+</div>
+
+
+      </div> <!-- .stats-container__inner -->
+
+    </main> <!-- .stats-container -->
+
+    <footer data-integralas-id-c59ae36e-f057-67ea-fe68-368d266c726c="">
+      <div class="footer nba-footer" id="nbaGlobalFooter">
+  <p>Copyright © <em class="placeholder">2018</em> NBA Media Ventures, LLC. All rights reserved.</p>
+  <p><a href="http://www.nba.com/news/privacy_policy.html">Privacy Policy</a> | <a href="http://www.nba.com/news/termsofuse.html">Terms of Use</a> | <a id="nba_cnsnt_trst" class="nbaAdChoices" href="http://www.nba.com/adchoices" target="_blank" rel="noopener nofollow">Ad Choices</a></p>
+  <p>NBA.com is part of Turner Sports Digital, part of the Turner Sports &amp; Entertainment Digital Network.</p><img alt="Turner Broadcasting System, Inc. A Time Warner Company." src="//i.cdn.turner.com/nba/nba/footer/turner_logo_200x35.png">
+</div>          </footer>
+
+    
+
+  
+
+
+  
+
+  
+
+  
+      
+      
+    
+
+
+  
+    <script>
+      window.esi_ = {
+        country: "US",
+        tz: "PST",
+        region: "CA",
+        browser: "MOZILLA",
+        nbarid: "1",
+        nbarn: "United States"
+      };
+    </script>
+  
+    
+  
+    
+  <script src="/js/data/ptsd/stats_ptsd.js"></script>
+  <script src="/scripts/theme.min.js"></script>
+  
+    
+<!-- turner ad tag includes -->
+<script src="https://s.cdn.turner.com/ads/adfuel/ais/nba2-ais.js"></script>
+<script src="https://s.cdn.turner.com/ads/nba2/adfuel.js"></script>
+<script src="https://s.cdn.turner.com/ads/nba2/nba_stats.js"></script>
+
+<script type="text/javascript">
+
+    //Set a listener for GPTRenderComplete Event
+    AdFuel.addEvent(document, 'GPTRenderComplete', function(event) {
+        if (event.detail && !event.detail.isEmpty) {
+            var detail = event.detail;
+            //If ad_bnr_atf_01 is 728x90, dispatch the global marketing slot
+            if (detail.pos[0] === 'bnr_atf_01' && detail.renderedSize[0] === 728 && detail.renderedSize[1] === 90) {
+                AdFuel.queueRegistry('//ssl.cdn.turner.com/ads/nba2/singles/nba_global_mktg.js', {
+                    dispatch: true,
+                });
+            }
+        }
+    });
+
+    //Dispatch nba_stats registry
+    AdFuel.queueRegistry('//i.cdn.turner.com/ads/nba2/nba_stats.js', {
+        dispatch: true
+    });
+
+</script>
+
+    
+<!-- GA and page tracking scripts -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86643645-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- /GA and page tracking scripts -->
+
+      
+      <!-- SAP domestic tracking pixel -->
+      <img src="https://ad.doubleclick.net/ddm/trackimp/N69702.149455NBAMEDIAVENTURESLLC/B20614183.212428153;dc_trk_aid=412073824;dc_trk_cid=76726149;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?" border="0" height="0" width="0" style="position:absolute;" alt="Advertisement">
+      <script type="application/javascript" src="https://pixel.adsafeprotected.com/rjss/st/136983/21564187/skeleton.js" data-ias-script-tag="found"></script><script type="text/javascript" src="https://sc.iasds01.com/dtc?ias_callback=__IntegralAS_c59ae36ef05767eafe68368d266c726c_4451&amp;advEntityId=136983&amp;pubEnt=21564187&amp;asid=c59ae36e-f057-67ea-fe68-368d266c726c"></script><script type="text/javascript" src="https://pixel.adsafeprotected.com/rfw/st/136983/21564187/skeleton.js?adsafe_url=https%3A%2F%2Fstats.nba.com%2Fteams%2Fdefense%2F%3Fsort%3DDEF_RATING%26dir%3D-1%26Season%3D2011-12%26SeasonType%3DRegular%2520Season&amp;adsafe_type=abdfq&amp;adsafe_jsinfo=,id:c59ae36e-f057-67ea-fe68-368d266c726c,c:tMbUHT,sl:outOfView,em:false,fr:true,mn:app19sje,pt:1-5-15,wc:22.45.1200.808,ac:22.1092.1200.92,am:a,cc:22.45.1200.1139,piv:0,obst:0,th:0,reas:l,br:c,fv:0,abv:na,an:n,fm:r9f1ue6+1*.136983-21564187,idMap:1*,pl:CV8L.VEBo.0YtC,rend:0,renddet:A,es:0,sc:1,ha:1,gm:0,tt:rjss,thd:1,et:31,oid:dc7f4f1f-e6e5-11e8-b7e0-00259035dba0,v:17.4.157,sp:0,wr:1200.808,sr:1680.1050,ov:0"></script><iframe src="about:blank" style="width: 0px !important; height: 0px !important; border: 0px !important; position: absolute !important; top: -10000px !important; left: -10000px !important;"></iframe><iframe sandbox="allow-scripts allow-same-origin" title="Adobe ID Syncing iFrame" id="destination_publishing_iframe_nba_0" name="destination_publishing_iframe_nba_0_name" src="https://nba.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fstats.nba.com%2Fteams%2Fdefense%2F%3Fsort%3DDEF_RATING%26dir%3D-1%26Season%3D2011-12%26SeasonType%3DRegular%2520Season" style="display: none; width: 0px; height: 0px;" class="aamIframeLoaded"></iframe>
+      <noscript><IMG SRC="https://pixel.adsafeprotected.com/rfw/st/136983/21564186/skeleton.gif" BORDER=0 WIDTH=1 HEIGHT=1 ALT=""></noscript>
+    
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"09f0cb5c68","applicationID":"76210961","transactionName":"NgcGZUJQVxYEVEJcCQ9NMUNZHk0ABFpFGgIEBAFfQ1QWDAtTU01IEQoU","queueTime":0,"applicationTime":18,"atts":"GkAFEwpKRBg=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<div class="kxhead" data-id="ITcATbN4" style="display:none !important;"></div><iframe src="//s.amazon-adsystem.com/iu3?cm3ppd=1&amp;d=dtb-pub&amp;csif=t&amp;dl=ym_rbd_ox_pm_an" style="display: none;"></iframe><iframe sandbox="allow-scripts allow-same-origin" title="Adobe ID Syncing iFrame" id="destination_publishing_iframe_turner2_0" name="destination_publishing_iframe_turner2_0_name" src="https://turner2.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fstats.nba.com%2Fteams%2Fdefense%2F%3Fsort%3DDEF_RATING%26dir%3D-1%26Season%3D2011-12%26SeasonType%3DRegular%2520Season" class="aamIframeLoaded" style="display: none; width: 0px; height: 0px;"></iframe><iframe id="google_osd_static_frame_8061003183770" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe></body><iframe id="kx-proxy-ITcATbN4" src="https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&amp;kxt=https%3A%2F%2Fstats.nba.com&amp;kxcl=cdn&amp;kxp=" style="display: none; visibility: hidden; height: 0; width: 0;"></iframe>
