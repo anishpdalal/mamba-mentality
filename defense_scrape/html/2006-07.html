@@ -1,6 +1,6 @@
 <head class="at-element-marker"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><script type="text/javascript" src="https://beacon.krxd.net/optout_check?callback=Krux.ns._default.kxjsonp_optOutCheck"></script><script src="https://js-agent.newrelic.com/nr-1099.min.js"></script><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_275.js"></script><script type="text/javascript" src="https://consumer.krxd.net/consent/get/e9eaedd3-c1da-4334-82f0-d7e3ff883c87?idt=device&amp;dt=kxcookie&amp;callback=Krux.ns._default.kxjsonp_consent_get_0"></script><script async="" src="//cdn.krxd.net/ctjs/controltag.js.c18d2ea515480e99b9a7056becfa6a91"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://i.cdn.turner.com/ads/adfuel/modules/dhtmlxgrid.min.js"></script><script type="text/javascript" async="" src="https://i.cdn.turner.com/ads/adfuel/modules/keypress.js"></script><script type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script type="text/javascript" async="" src="https://cdn.krxd.net/controltag?confid=ITcATbN4"></script><script type="text/javascript" async="" src="//www.ugdturner.com/xd.sjs"></script><script type="text/javascript" async="" src="https://c.amazon-adsystem.com/aax2/amzn_ads.js"></script><script type="text/javascript" src="//i.cdn.turner.com/ads/adfuel/modules/prebid-1.15.0.js"></script><script async="" src="//c.amazon-adsystem.com/aax2/apstag.js"></script><script type="text/javascript" async="" src="//static.criteo.net/js/ld/publishertag.js"></script><script type="text/javascript" async="" src="//js-sec.indexww.com/ht/p/186948-120271757110262.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQECWF5UChAHUlNTBwgBVw=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"><script src="https://js-agent.newrelic.com/nr-1099.min.js"></script><script src="https://connect.facebook.net/signals/config/418245194992316?v=2.8.33&amp;r=stable" async=""></script><script async="" src="//connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" src="https://cdn.krxd.net/userdata/get?pub=e9eaedd3-c1da-4334-82f0-d7e3ff883c87&amp;technographics=1&amp;callback=Krux.ns._default.kxjsonp_userdata"></script><script type="text/javascript" src="https://beacon.krxd.net/optout_check?callback=Krux.ns._default.kxjsonp_optOutCheck"></script><script src="https://pagead2.googlesyndication.com/pagead/osd.js"></script><script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_rendering_275.js"></script><script type="text/javascript" src="https://consumer.krxd.net/consent/get/e9eaedd3-c1da-4334-82f0-d7e3ff883c87?idt=device&amp;dt=kxcookie&amp;callback=Krux.ns._default.kxjsonp_consent_get_0"></script><script async="" src="//cdn.krxd.net/ctjs/controltag.js.c18d2ea515480e99b9a7056becfa6a91"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://i.cdn.turner.com/ads/adfuel/modules/dhtmlxgrid.min.js"></script><script type="text/javascript" async="" src="https://i.cdn.turner.com/ads/adfuel/modules/keypress.js"></script><script type="text/javascript" src="https://www.googletagservices.com/tag/js/gpt.js"></script><script type="text/javascript" async="" src="https://cdn.krxd.net/controltag?confid=ITcATbN4"></script><script type="text/javascript" async="" src="//www.ugdturner.com/xd.sjs"></script><script type="text/javascript" async="" src="https://c.amazon-adsystem.com/aax2/amzn_ads.js"></script><script type="text/javascript" src="//i.cdn.turner.com/ads/adfuel/modules/prebid-1.15.0.js"></script><script async="" src="//c.amazon-adsystem.com/aax2/apstag.js"></script><script type="text/javascript" async="" src="//static.criteo.net/js/ld/publishertag.js"></script><script type="text/javascript" async="" src="//js-sec.indexww.com/ht/p/186948-120271757110262.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VQECWF5UChAHUlNTBwgBVw=="};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(16),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(17),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,v="fn"+h,w="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(v,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(v,function(t,n){i(w,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(19)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(19)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(19)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(19)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(19)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,v=l.SI,w="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(w,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(16),s=t(17),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){if(!o)return!1;if(t!==o)return!1;if(!n)return!0;if(!i)return!1;for(var e=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==e[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}n.exports={agent:o,version:i,match:r}},{}],16:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],17:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],18:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],19:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(17),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=m(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[g[e]];return d&&d.push([b,e,r,a]),a}}function p(t,n){y[t]=m(t).concat(n)}function h(t,n){var e=y[t];if(e)for(var r=0;r<e.length;r++)e[r]===n&&e.splice(r,1)}function m(t){return y[t]||[]}function v(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",g[e]=n,n in u||(u[n]=[])})}var y={},g={},b={on:p,addEventListener:p,removeEventListener:h,emit:e,get:v,listeners:m,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(16),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!E++){var t=x.info=NREUM.info,n=p.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(g,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+x.offset],null,"api");var e=p.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===p.readyState&&i()}function i(){c("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-x.offset}var s=(new Date).getTime(),c=t("handle"),f=t(16),u=t("ee"),d=t(15),l=window,p=l.document,h="addEventListener",m="attachEvent",v=l.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:v,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var y=""+location,g={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:s,now:a,origin:y,features:{},xhrWrappable:b,userAgent:d};t(12),p[h]?(p[h]("DOMContentLoaded",i,!1),l[h]("load",r,!1)):(p[m]("onreadystatechange",o),l[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(18)},{}]},{},["loader",2,10,4,3]);</script>
 
     
       
@@ -49,8 +49,8 @@
   <body class="has-sap-sponser">
 
     <header id="header-ad">
-      <div id="ad_bnr_atf_01" style="display: none;"><div id="google_ads_iframe_/8663477/NBA/stats_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/8663477/NBA/stats_0" title="advertisement" name="google_ads_iframe_/8663477/NBA/stats_0" width="970" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" srcdoc="" style="border: 0px; vertical-align: bottom;"></iframe></div></div>
-      <div id="ad_mod_92f78ded2"></div>
+      <div id="ad_bnr_atf_02" data-google-query-id="COP_tsaV0t4CFUP8ZAodhjcJ4w" class=" adfuel-rendered" style=""><div id="google_ads_iframe_/8663477/NBA/stats_1__container__" style="border: 0pt none; display: inline-block; width: 728px; height: 90px;"><iframe frameborder="0" src="https://tpc.googlesyndication.com/safeframe/1-0-31/html/container.html" id="google_ads_iframe_/8663477/NBA/stats_1" title="advertisement" name="" scrolling="no" marginwidth="0" marginheight="0" width="728" height="90" data-is-safeframe="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" data-google-container-id="3" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+      <div id="ad_mod_92f78ded2" data-google-query-id="CLPJ68aV0t4CFYLJZAodq_II_Q" class=" adfuel-rendered" style=""><div id="google_ads_iframe_/8663477/NBA/global_mktg_0__container__" style="border: 0pt none; display: inline-block; width: 200px; height: 90px;"><iframe frameborder="0" src="https://tpc.googlesyndication.com/safeframe/1-0-31/html/container.html" id="google_ads_iframe_/8663477/NBA/global_mktg_0" title="advertisement" name="" scrolling="no" marginwidth="0" marginheight="0" width="200" height="90" data-is-safeframe="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" data-google-container-id="5" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
     </header>
 
     <div class="[ show-for-large ] turner-nav">
@@ -1277,11 +1277,1052 @@
     </dl>
   </div> <!-- .stats-glossary -->
 
-  <div stats-loader="isLoading"><!----><div ng-if="statsLoader" class="loader"><img src="/media/img/pacifier.svg"></div><!----></div>
+  <div stats-loader="isLoading"><!----></div>
   <div stats-no-data-msg="noData &amp;&amp; !isLoading"><!----><!----></div>
 
 
-  <!---->
+  <!----><nba-stat-table ng-if="!isLoading &amp;&amp; !noData" rows="teamStats.rows" params="params" filters="filters" options="options" template="teams/teams-defense"><div stats-table-pagination="" data-location="top" class="stats-table-pagination"><!----></div><div class="nba-stat-table">
+  <div class="nba-stat-table__overflow" data-fixed="2" role="grid">
+    <table class="table">
+      <thead>
+        <tr>
+          <th></th>
+          <th sort="" cf="" data-field="TEAM_NAME" class="text" ripple=""><br>TEAM</th>
+          <th sort="" cf="" data-field="GP" data-rank="" data-dir="-1" ripple="">GP</th>
+          <th sort="" cf="" data-field="W" data-rank="" data-dir="-1" ripple="">W</th>
+          <th sort="" cf="" data-field="L" data-rank="" data-dir="-1" ripple="">L</th>
+          <th sort="" cf="" data-field="MIN" data-rank="" data-dir="-1" ripple="">MIN</th>
+          <th sort="" cf="" data-field="DEF_RATING" data-rank="" data-dir="-1" ripple="" class="sorted asc">DEF&nbsp;RTG</th>
+          <th sort="" cf="" data-field="DREB" data-rank="" data-dir="-1" ripple="">DREB</th>
+          <th sort="" cf="" data-field="DREB_PCT" data-rank="" data-dir="-1" ripple="">DREB%</th>
+          <th sort="" cf="" data-field="STL" data-rank="" data-dir="-1" ripple="">STL</th>
+          <th sort="" cf="" data-field="BLK" data-rank="" data-dir="-1" ripple="">BLK</th>
+          <th sort="" cf="" data-field="OPP_PTS_OFF_TOV" data-rank="" data-dir="-1" ripple="">OPP&nbsp;PTS<br>OFF&nbsp;TOV</th>
+          <th sort="" cf="" data-field="OPP_PTS_2ND_CHANCE" data-rank="" data-dir="-1" ripple="">OPP&nbsp;PTS<br>2ND&nbsp;CHANCE</th>
+          <th sort="" cf="" data-field="OPP_PTS_FB" data-rank="" data-dir="-1" ripple="">OPP&nbsp;PTS<br>FB</th>
+          <th sort="" cf="" data-field="OPP_PTS_PAINT" data-rank="" data-dir="-1" ripple="">OPP&nbsp;PTS<br>PAINT</th>
+          <th sort="" cf="" hidden="" data-field="GP_RANK" ripple="">GP RANK</th>
+          <th sort="" cf="" hidden="" data-field="W_RANK" ripple="">W RANK</th>
+          <th sort="" cf="" hidden="" data-field="L_RANK" ripple="">L RANK</th>
+          <th sort="" cf="" hidden="" data-field="MIN_RANK" ripple="">MIN RANK</th>
+          <th sort="" cf="" hidden="" data-field="DEF_RATING_RANK" ripple="">DEF&nbsp;RTG RANK</th>
+          <th sort="" cf="" hidden="" data-field="DREB_RANK" ripple="">DREB RANK</th>
+          <th sort="" cf="" hidden="" data-field="DREB_PCT_RANK" ripple="">DREB% RANK</th>
+          <th sort="" cf="" hidden="" data-field="STL_RANK" ripple="">STL RANK</th>
+          <th sort="" cf="" hidden="" data-field="BLK_RANK" ripple="">BLK RANK</th>
+          <th sort="" cf="" hidden="" data-field="OPP_PTS_OFF_TOV_RANK" ripple="">OPP&nbsp;PTS<br>OFF&nbsp;TOV RANK</th>
+          <th sort="" cf="" hidden="" data-field="OPP_PTS_2ND_CHANCE_RANK" ripple="">OPP&nbsp;PTS<br>2ND&nbsp;CHANCE RANK</th>
+          <th sort="" cf="" hidden="" data-field="OPP_PTS_FB_RANK" ripple="">OPP&nbsp;PTS<br>FB RANK</th>
+          <th sort="" cf="" hidden="" data-field="OPP_PTS_PAINT_RANK" ripple="">OPP&nbsp;PTS<br>PAINT RANK</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="0">
+          <td class="rank">1</td>
+          <td class="team-name first"><a href="/team/1610612741/traditional/?">Chicago Bulls</a></td>
+          <td>82</td>
+          <td>49</td>
+          <td>33</td>
+          <td>48.2</td>
+          <td class="sorted">98.8</td>
+          <td>31.7</td>
+          <td>70.7</td>
+          <td>7.8</td>
+          <td>5.4</td>
+          <td>17.2</td>
+          <td>11.9</td>
+          <td>10.7</td>
+          <td>35.1</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="1">
+          <td class="rank">2</td>
+          <td class="team-name first"><a href="/team/1610612759/traditional/?">San Antonio Spurs</a></td>
+          <td>82</td>
+          <td>58</td>
+          <td>24</td>
+          <td>48.2</td>
+          <td class="sorted">99.4</td>
+          <td>31.4</td>
+          <td>71.5</td>
+          <td>7.2</td>
+          <td>5.1</td>
+          <td>15.3</td>
+          <td>12.4</td>
+          <td>10.8</td>
+          <td>38.9</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="2">
+          <td class="rank">3</td>
+          <td class="team-name first"><a href="/team/1610612745/traditional/?">Houston Rockets</a></td>
+          <td>82</td>
+          <td>52</td>
+          <td>30</td>
+          <td>48.4</td>
+          <td class="sorted">99.7</td>
+          <td>32.6</td>
+          <td>72.5</td>
+          <td>7.1</td>
+          <td>4.1</td>
+          <td>14.8</td>
+          <td>11.6</td>
+          <td>9.6</td>
+          <td>33.0</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="3">
+          <td class="rank">4</td>
+          <td class="team-name first"><a href="/team/1610612739/traditional/?">Cleveland Cavaliers</a></td>
+          <td>82</td>
+          <td>50</td>
+          <td>32</td>
+          <td>48.5</td>
+          <td class="sorted">100.6</td>
+          <td>30.8</td>
+          <td>72.1</td>
+          <td>7.6</td>
+          <td>4.3</td>
+          <td>14.7</td>
+          <td>12.3</td>
+          <td>10.7</td>
+          <td>38.1</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="4">
+          <td class="rank">5</td>
+          <td class="team-name first"><a href="/team/1610612742/traditional/?">Dallas Mavericks</a></td>
+          <td>82</td>
+          <td>67</td>
+          <td>15</td>
+          <td>48.2</td>
+          <td class="sorted">102.1</td>
+          <td>30.7</td>
+          <td>71.9</td>
+          <td>6.8</td>
+          <td>5.0</td>
+          <td>15.2</td>
+          <td>11.4</td>
+          <td>12.7</td>
+          <td>36.9</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="5">
+          <td class="rank">6</td>
+          <td class="team-name first"><a href="/team/1610612765/traditional/?">Detroit Pistons</a></td>
+          <td>82</td>
+          <td>53</td>
+          <td>29</td>
+          <td>48.5</td>
+          <td class="sorted">102.5</td>
+          <td>29.0</td>
+          <td>67.8</td>
+          <td>7.1</td>
+          <td>5.8</td>
+          <td>13.2</td>
+          <td>13.3</td>
+          <td>11.2</td>
+          <td>37.2</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="6">
+          <td class="rank">7</td>
+          <td class="team-name first"><a href="/team/1610612753/traditional/?">Orlando Magic</a></td>
+          <td>82</td>
+          <td>40</td>
+          <td>42</td>
+          <td>48.2</td>
+          <td class="sorted">103.3</td>
+          <td>29.5</td>
+          <td>69.7</td>
+          <td>6.9</td>
+          <td>5.1</td>
+          <td>18.0</td>
+          <td>11.6</td>
+          <td>13.0</td>
+          <td>34.0</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="7">
+          <td class="rank">8</td>
+          <td class="team-name first"><a href="/team/1610612746/traditional/?">Los Angeles Clippers</a></td>
+          <td>82</td>
+          <td>40</td>
+          <td>42</td>
+          <td>48.1</td>
+          <td class="sorted">104.2</td>
+          <td>30.3</td>
+          <td>71.2</td>
+          <td>7.3</td>
+          <td>5.8</td>
+          <td>16.5</td>
+          <td>12.1</td>
+          <td>9.0</td>
+          <td>40.0</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="8">
+          <td class="rank">9</td>
+          <td class="team-name first"><a href="/team/1610612754/traditional/?">Indiana Pacers</a></td>
+          <td>82</td>
+          <td>35</td>
+          <td>47</td>
+          <td>48.2</td>
+          <td class="sorted">104.3</td>
+          <td>29.8</td>
+          <td>69.4</td>
+          <td>7.3</td>
+          <td>5.5</td>
+          <td>18.5</td>
+          <td>13.2</td>
+          <td>12.6</td>
+          <td>38.7</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="9">
+          <td class="rank">10</td>
+          <td class="team-name first"><a href="/team/1610612761/traditional/?">Toronto Raptors</a></td>
+          <td>82</td>
+          <td>47</td>
+          <td>35</td>
+          <td>48.2</td>
+          <td class="sorted">104.4</td>
+          <td>30.2</td>
+          <td>71.1</td>
+          <td>7.1</td>
+          <td>3.9</td>
+          <td>15.1</td>
+          <td>12.6</td>
+          <td>11.7</td>
+          <td>40.0</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="10">
+          <td class="rank">11</td>
+          <td class="team-name first"><a href="/team/1610612748/traditional/?">Miami Heat</a></td>
+          <td>82</td>
+          <td>44</td>
+          <td>38</td>
+          <td>48.4</td>
+          <td class="sorted">104.5</td>
+          <td>30.8</td>
+          <td>69.3</td>
+          <td>6.9</td>
+          <td>5.4</td>
+          <td>16.4</td>
+          <td>13.3</td>
+          <td>12.8</td>
+          <td>36.1</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="11">
+          <td class="rank">12</td>
+          <td class="team-name first"><a href="/team/1610612751/traditional/?">New Jersey Nets</a></td>
+          <td>82</td>
+          <td>41</td>
+          <td>41</td>
+          <td>48.5</td>
+          <td class="sorted">105.1</td>
+          <td>30.8</td>
+          <td>71.4</td>
+          <td>6.1</td>
+          <td>3.3</td>
+          <td>16.6</td>
+          <td>12.5</td>
+          <td>11.1</td>
+          <td>35.6</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="12">
+          <td class="rank">13</td>
+          <td class="team-name first"><a href="/team/1610612743/traditional/?">Denver Nuggets</a></td>
+          <td>82</td>
+          <td>45</td>
+          <td>37</td>
+          <td>48.2</td>
+          <td class="sorted">105.1</td>
+          <td>31.2</td>
+          <td>67.8</td>
+          <td>8.3</td>
+          <td>5.3</td>
+          <td>18.6</td>
+          <td>14.3</td>
+          <td>14.6</td>
+          <td>44.8</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="13">
+          <td class="rank">14</td>
+          <td class="team-name first"><a href="/team/1610612740/traditional/?">New Orleans/Oklahoma City Hornets</a></td>
+          <td>82</td>
+          <td>39</td>
+          <td>43</td>
+          <td>48.5</td>
+          <td class="sorted">105.3</td>
+          <td>30.6</td>
+          <td>71.9</td>
+          <td>6.4</td>
+          <td>4.2</td>
+          <td>16.1</td>
+          <td>13.0</td>
+          <td>11.9</td>
+          <td>37.8</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="14">
+          <td class="rank">15</td>
+          <td class="team-name first"><a href="/team/1610612756/traditional/?">Phoenix Suns</a></td>
+          <td>82</td>
+          <td>61</td>
+          <td>21</td>
+          <td>48.5</td>
+          <td class="sorted">105.5</td>
+          <td>31.5</td>
+          <td>68.3</td>
+          <td>6.7</td>
+          <td>4.8</td>
+          <td>16.2</td>
+          <td>15.3</td>
+          <td>10.5</td>
+          <td>42.3</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="15">
+          <td class="rank">16</td>
+          <td class="team-name first"><a href="/team/1610612755/traditional/?">Philadelphia 76ers</a></td>
+          <td>82</td>
+          <td>35</td>
+          <td>47</td>
+          <td>48.5</td>
+          <td class="sorted">105.6</td>
+          <td>28.7</td>
+          <td>67.8</td>
+          <td>7.2</td>
+          <td>4.8</td>
+          <td>17.2</td>
+          <td>14.3</td>
+          <td>11.9</td>
+          <td>41.2</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="16">
+          <td class="rank">17</td>
+          <td class="team-name first"><a href="/team/1610612762/traditional/?">Utah Jazz</a></td>
+          <td>82</td>
+          <td>51</td>
+          <td>31</td>
+          <td>48.3</td>
+          <td class="sorted">105.6</td>
+          <td>30.0</td>
+          <td>72.1</td>
+          <td>7.0</td>
+          <td>4.1</td>
+          <td>17.5</td>
+          <td>11.1</td>
+          <td>12.2</td>
+          <td>38.2</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="17">
+          <td class="rank">18</td>
+          <td class="team-name first"><a href="/team/1610612738/traditional/?">Boston Celtics</a></td>
+          <td>82</td>
+          <td>24</td>
+          <td>58</td>
+          <td>48.4</td>
+          <td class="sorted">105.8</td>
+          <td>29.2</td>
+          <td>70.5</td>
+          <td>7.2</td>
+          <td>4.7</td>
+          <td>18.2</td>
+          <td>12.0</td>
+          <td>12.4</td>
+          <td>41.7</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="18">
+          <td class="rank">19</td>
+          <td class="team-name first"><a href="/team/1610612766/traditional/?">Charlotte Bobcats</a></td>
+          <td>82</td>
+          <td>33</td>
+          <td>49</td>
+          <td>48.8</td>
+          <td class="sorted">106.2</td>
+          <td>28.6</td>
+          <td>68.2</td>
+          <td>7.8</td>
+          <td>4.5</td>
+          <td>16.9</td>
+          <td>12.9</td>
+          <td>13.1</td>
+          <td>42.0</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="19">
+          <td class="rank">20</td>
+          <td class="team-name first"><a href="/team/1610612750/traditional/?">Minnesota Timberwolves</a></td>
+          <td>82</td>
+          <td>32</td>
+          <td>50</td>
+          <td>48.8</td>
+          <td class="sorted">106.4</td>
+          <td>30.2</td>
+          <td>69.8</td>
+          <td>6.5</td>
+          <td>4.0</td>
+          <td>17.5</td>
+          <td>13.8</td>
+          <td>11.8</td>
+          <td>40.4</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="20">
+          <td class="rank">21</td>
+          <td class="team-name first"><a href="/team/1610612744/traditional/?">Golden State Warriors</a></td>
+          <td>82</td>
+          <td>42</td>
+          <td>40</td>
+          <td>48.2</td>
+          <td class="sorted">106.5</td>
+          <td>29.9</td>
+          <td>66.2</td>
+          <td>9.1</td>
+          <td>5.7</td>
+          <td>18.3</td>
+          <td>16.0</td>
+          <td>13.4</td>
+          <td>43.9</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="21">
+          <td class="rank">22</td>
+          <td class="team-name first"><a href="/team/1610612758/traditional/?">Sacramento Kings</a></td>
+          <td>82</td>
+          <td>33</td>
+          <td>49</td>
+          <td>48.3</td>
+          <td class="sorted">106.7</td>
+          <td>29.2</td>
+          <td>69.2</td>
+          <td>8.2</td>
+          <td>3.2</td>
+          <td>15.5</td>
+          <td>12.8</td>
+          <td>12.5</td>
+          <td>41.9</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="22">
+          <td class="rank">23</td>
+          <td class="team-name first"><a href="/team/1610612737/traditional/?">Atlanta Hawks</a></td>
+          <td>82</td>
+          <td>30</td>
+          <td>52</td>
+          <td>48.5</td>
+          <td class="sorted">107.0</td>
+          <td>28.2</td>
+          <td>67.6</td>
+          <td>7.4</td>
+          <td>5.4</td>
+          <td>18.1</td>
+          <td>13.7</td>
+          <td>13.3</td>
+          <td>43.0</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="23">
+          <td class="rank">24</td>
+          <td class="team-name first"><a href="/team/1610612752/traditional/?">New York Knicks</a></td>
+          <td>82</td>
+          <td>33</td>
+          <td>49</td>
+          <td>48.8</td>
+          <td class="sorted">107.4</td>
+          <td>30.7</td>
+          <td>71.4</td>
+          <td>6.6</td>
+          <td>3.2</td>
+          <td>18.4</td>
+          <td>13.2</td>
+          <td>10.1</td>
+          <td>38.1</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="24">
+          <td class="rank">25</td>
+          <td class="team-name first"><a href="/team/1610612747/traditional/?">Los Angeles Lakers</a></td>
+          <td>82</td>
+          <td>42</td>
+          <td>40</td>
+          <td>48.9</td>
+          <td class="sorted">107.4</td>
+          <td>30.4</td>
+          <td>69.0</td>
+          <td>7.3</td>
+          <td>5.1</td>
+          <td>18.2</td>
+          <td>14.1</td>
+          <td>12.2</td>
+          <td>43.7</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="25">
+          <td class="rank">26</td>
+          <td class="team-name first"><a href="/team/1610612757/traditional/?">Portland Trail Blazers</a></td>
+          <td>82</td>
+          <td>32</td>
+          <td>50</td>
+          <td>48.7</td>
+          <td class="sorted">108.6</td>
+          <td>28.0</td>
+          <td>69.7</td>
+          <td>6.8</td>
+          <td>4.6</td>
+          <td>18.3</td>
+          <td>12.6</td>
+          <td>13.9</td>
+          <td>41.2</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="26">
+          <td class="rank">27</td>
+          <td class="team-name first"><a href="/team/1610612760/traditional/?">Seattle SuperSonics</a></td>
+          <td>82</td>
+          <td>31</td>
+          <td>51</td>
+          <td>48.4</td>
+          <td class="sorted">108.9</td>
+          <td>28.3</td>
+          <td>67.6</td>
+          <td>7.7</td>
+          <td>3.7</td>
+          <td>17.7</td>
+          <td>14.7</td>
+          <td>12.6</td>
+          <td>43.6</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="27">
+          <td class="rank">28</td>
+          <td class="team-name first"><a href="/team/1610612764/traditional/?">Washington Wizards</a></td>
+          <td>82</td>
+          <td>41</td>
+          <td>41</td>
+          <td>48.4</td>
+          <td class="sorted">109.1</td>
+          <td>29.0</td>
+          <td>67.8</td>
+          <td>7.7</td>
+          <td>4.6</td>
+          <td>16.1</td>
+          <td>14.4</td>
+          <td>13.3</td>
+          <td>41.6</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="28">
+          <td class="rank">29</td>
+          <td class="team-name first"><a href="/team/1610612749/traditional/?">Milwaukee Bucks</a></td>
+          <td>82</td>
+          <td>28</td>
+          <td>54</td>
+          <td>48.4</td>
+          <td class="sorted">110.3</td>
+          <td>27.7</td>
+          <td>65.7</td>
+          <td>7.2</td>
+          <td>2.7</td>
+          <td>17.5</td>
+          <td>14.2</td>
+          <td>12.9</td>
+          <td>43.5</td>
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="29">
+          <td class="rank">30</td>
+          <td class="team-name first"><a href="/team/1610612763/traditional/?">Memphis Grizzlies</a></td>
+          <td>82</td>
+          <td>22</td>
+          <td>60</td>
+          <td>48.7</td>
+          <td class="sorted">110.8</td>
+          <td>29.0</td>
+          <td>68.2</td>
+          <td>6.9</td>
+          <td>5.0</td>
+          <td>19.8</td>
+          <td>14.2</td>
+          <td>14.6</td>
+          <td>45.4</td>
+        </tr><!---->
+      </tbody>
+    </table>
+
+  </div> <!-- .stat-table__overflow -->
+<div class="nba-stat-table__overlay" data-fixed="2" role="grid">
+    <table class="table">
+      <thead>
+        <tr>
+          <th></th>
+          <th sort="" cf="" data-field="TEAM_NAME" class="text" ripple=""><br>TEAM</th>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr>
+      </thead>
+      <tbody>
+        <!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="0">
+          <td class="rank">1</td>
+          <td class="team-name first"><a href="/team/1610612741/traditional/?">Chicago Bulls</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="1">
+          <td class="rank">2</td>
+          <td class="team-name first"><a href="/team/1610612759/traditional/?">San Antonio Spurs</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="2">
+          <td class="rank">3</td>
+          <td class="team-name first"><a href="/team/1610612745/traditional/?">Houston Rockets</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="3">
+          <td class="rank">4</td>
+          <td class="team-name first"><a href="/team/1610612739/traditional/?">Cleveland Cavaliers</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="4">
+          <td class="rank">5</td>
+          <td class="team-name first"><a href="/team/1610612742/traditional/?">Dallas Mavericks</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="5">
+          <td class="rank">6</td>
+          <td class="team-name first"><a href="/team/1610612765/traditional/?">Detroit Pistons</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="6">
+          <td class="rank">7</td>
+          <td class="team-name first"><a href="/team/1610612753/traditional/?">Orlando Magic</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="7">
+          <td class="rank">8</td>
+          <td class="team-name first"><a href="/team/1610612746/traditional/?">Los Angeles Clippers</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="8">
+          <td class="rank">9</td>
+          <td class="team-name first"><a href="/team/1610612754/traditional/?">Indiana Pacers</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="9">
+          <td class="rank">10</td>
+          <td class="team-name first"><a href="/team/1610612761/traditional/?">Toronto Raptors</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="10">
+          <td class="rank">11</td>
+          <td class="team-name first"><a href="/team/1610612748/traditional/?">Miami Heat</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="11">
+          <td class="rank">12</td>
+          <td class="team-name first"><a href="/team/1610612751/traditional/?">New Jersey Nets</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="12">
+          <td class="rank">13</td>
+          <td class="team-name first"><a href="/team/1610612743/traditional/?">Denver Nuggets</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="13">
+          <td class="rank">14</td>
+          <td class="team-name first"><a href="/team/1610612740/traditional/?">New Orleans/Oklahoma City Hornets</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="14">
+          <td class="rank">15</td>
+          <td class="team-name first"><a href="/team/1610612756/traditional/?">Phoenix Suns</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="15">
+          <td class="rank">16</td>
+          <td class="team-name first"><a href="/team/1610612755/traditional/?">Philadelphia 76ers</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="16">
+          <td class="rank">17</td>
+          <td class="team-name first"><a href="/team/1610612762/traditional/?">Utah Jazz</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="17">
+          <td class="rank">18</td>
+          <td class="team-name first"><a href="/team/1610612738/traditional/?">Boston Celtics</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="18">
+          <td class="rank">19</td>
+          <td class="team-name first"><a href="/team/1610612766/traditional/?">Charlotte Bobcats</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="19">
+          <td class="rank">20</td>
+          <td class="team-name first"><a href="/team/1610612750/traditional/?">Minnesota Timberwolves</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="20">
+          <td class="rank">21</td>
+          <td class="team-name first"><a href="/team/1610612744/traditional/?">Golden State Warriors</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="21">
+          <td class="rank">22</td>
+          <td class="team-name first"><a href="/team/1610612758/traditional/?">Sacramento Kings</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="22">
+          <td class="rank">23</td>
+          <td class="team-name first"><a href="/team/1610612737/traditional/?">Atlanta Hawks</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="23">
+          <td class="rank">24</td>
+          <td class="team-name first"><a href="/team/1610612752/traditional/?">New York Knicks</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="24">
+          <td class="rank">25</td>
+          <td class="team-name first"><a href="/team/1610612747/traditional/?">Los Angeles Lakers</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="25">
+          <td class="rank">26</td>
+          <td class="team-name first"><a href="/team/1610612757/traditional/?">Portland Trail Blazers</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="26">
+          <td class="rank">27</td>
+          <td class="team-name first"><a href="/team/1610612760/traditional/?">Seattle SuperSonics</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="27">
+          <td class="rank">28</td>
+          <td class="team-name first"><a href="/team/1610612764/traditional/?">Washington Wizards</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="28">
+          <td class="rank">29</td>
+          <td class="team-name first"><a href="/team/1610612749/traditional/?">Milwaukee Bucks</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!----><tr data-ng-repeat="(i, row) in page track by row.$hash" index="29">
+          <td class="rank">30</td>
+          <td class="team-name first"><a href="/team/1610612763/traditional/?">Memphis Grizzlies</a></td>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+        </tr><!---->
+      </tbody>
+    </table>
+
+  </div></div> <!-- .stat-table -->
+<div stats-table-pagination="" data-location="bottom" class="stats-table-pagination"><!----></div></nba-stat-table><!---->
 
 
 </div> <!-- .stats-splits -->
@@ -1295,7 +2336,7 @@
 
     </main> <!-- .stats-container -->
 
-    <footer data-integralas-id-46717ad2-8718-4442-d732-0abe3ecc874b="">
+    <footer data-integralas-id-c1ff3ff8-aab1-0b13-4def-206e62a3a8ed="">
       <div class="footer nba-footer" id="nbaGlobalFooter">
   <p>Copyright © <em class="placeholder">2018</em> NBA Media Ventures, LLC. All rights reserved.</p>
   <p><a href="http://www.nba.com/news/privacy_policy.html">Privacy Policy</a> | <a href="http://www.nba.com/news/termsofuse.html">Terms of Use</a> | <a id="nba_cnsnt_trst" class="nbaAdChoices" href="http://www.nba.com/adchoices" target="_blank" rel="noopener nofollow">Ad Choices</a></p>
@@ -1380,10 +2421,348 @@
       
       <!-- SAP domestic tracking pixel -->
       <img src="https://ad.doubleclick.net/ddm/trackimp/N69702.149455NBAMEDIAVENTURESLLC/B20614183.212428153;dc_trk_aid=412073824;dc_trk_cid=76726149;ord=[timestamp];dc_lat=;dc_rdid=;tag_for_child_directed_treatment=?" border="0" height="0" width="0" style="position:absolute;" alt="Advertisement">
-      <script type="application/javascript" src="https://pixel.adsafeprotected.com/rjss/st/136983/21564187/skeleton.js" data-ias-script-tag="found"></script><script type="text/javascript" src="https://sc.iasds01.com/dtc?ias_callback=__IntegralAS_46717ad287184442d7320abe3ecc874b_5445&amp;advEntityId=136983&amp;pubEnt=21564187&amp;asid=46717ad2-8718-4442-d732-0abe3ecc874b"></script><script type="text/javascript" src="https://pixel.adsafeprotected.com/rfw/st/136983/21564187/skeleton.js?adsafe_url=https%3A%2F%2Fstats.nba.com%2Fteams%2Fdefense%2F%3Fsort%3DDEF_RATING%26dir%3D-1%26Season%3D2006-07%26SeasonType%3DRegular%2520Season&amp;adsafe_type=abdfq&amp;adsafe_jsinfo=,id:46717ad2-8718-4442-d732-0abe3ecc874b,c:tMbvLy,sl:outOfView,em:false,fr:true,mn:app13sje,pt:1-5-15,wc:22.45.1200.808,ac:22.1092.1200.92,am:a,cc:22.45.1200.1139,piv:0,obst:0,th:0,reas:l,br:c,fv:0,abv:na,an:n,fm:r9f15hN+1*.136983-21564187,idMap:1*,pl:CV8L.VEBo.0YtC,rend:0,renddet:A,es:0,sc:1,ha:1,gm:0,tt:rjss,thd:1,et:30,oid:a35b0317-e6e5-11e8-8227-00259069c3e8,v:17.4.157,sp:0,wr:1200.808,sr:1680.1050,ov:0"></script><iframe src="about:blank" style="width: 0px !important; height: 0px !important; border: 0px !important; position: absolute !important; top: -10000px !important; left: -10000px !important;"></iframe><iframe sandbox="allow-scripts allow-same-origin" title="Adobe ID Syncing iFrame" id="destination_publishing_iframe_nba_0" name="destination_publishing_iframe_nba_0_name" src="https://nba.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fstats.nba.com%2Fteams%2Fdefense%2F%3Fsort%3DDEF_RATING%26dir%3D-1%26Season%3D2006-07%26SeasonType%3DRegular%2520Season" style="display: none; width: 0px; height: 0px;" class="aamIframeLoaded"></iframe>
+      <script type="application/javascript" src="https://pixel.adsafeprotected.com/rjss/st/136983/21564187/skeleton.js" data-ias-script-tag="found"></script><script type="text/javascript" src="https://sc.iasds01.com/dtc?ias_callback=__IntegralAS_c1ff3ff8aab10b134def206e62a3a8ed_4588&amp;advEntityId=136983&amp;pubEnt=21564187&amp;asid=c1ff3ff8-aab1-0b13-4def-206e62a3a8ed"></script><script type="text/javascript" src="https://pixel.adsafeprotected.com/rfw/st/136983/21564187/skeleton.js?adsafe_url=https%3A%2F%2Fstats.nba.com%2Fteams%2Fdefense%2F%3Fsort%3DDEF_RATING%26dir%3D-1%26Season%3D2006-07%26SeasonType%3DRegular%2520Season&amp;adsafe_type=abdfq&amp;adsafe_jsinfo=,id:c1ff3ff8-aab1-0b13-4def-206e62a3a8ed,c:tQERDk,sl:outOfView,em:false,fr:true,mn:app40sje,pt:1-5-15,wc:22.45.1200.808,ac:22.1092.1200.92,am:a,cc:22.45.1200.1139,piv:0,obst:0,th:0,reas:l,br:c,fv:0,abv:na,an:n,fm:r9jur9y+1*.136983-21564187,idMap:1*,pl:CV8L.VEBo.0YtC,rend:0,renddet:A,es:0,sc:1,ha:1,gm:0,tt:rjss,thd:1,et:31,oid:8a7c87d4-e77f-11e8-9896-14dda9d4b6a0,v:17.4.157,sp:0,wr:1200.808,sr:1680.1050,ov:0"></script><iframe src="about:blank" style="width: 0px !important; height: 0px !important; border: 0px !important; position: absolute !important; top: -10000px !important; left: -10000px !important;"></iframe><iframe sandbox="allow-scripts allow-same-origin" title="Adobe ID Syncing iFrame" id="destination_publishing_iframe_nba_0" name="destination_publishing_iframe_nba_0_name" src="https://nba.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fstats.nba.com%2Fteams%2Fdefense%2F%3Fsort%3DDEF_RATING%26dir%3D-1%26Season%3D2006-07%26SeasonType%3DRegular%2520Season" style="display: none; width: 0px; height: 0px;" class="aamIframeLoaded"></iframe>
       <noscript><IMG SRC="https://pixel.adsafeprotected.com/rfw/st/136983/21564186/skeleton.gif" BORDER=0 WIDTH=1 HEIGHT=1 ALT=""></noscript>
     
 
-  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"09f0cb5c68","applicationID":"76210961","transactionName":"NgcGZUJQVxYEVEJcCQ9NMUNZHk0ABFpFGgIEBAFfQ1QWDAtTU01IEQoU","queueTime":0,"applicationTime":18,"atts":"GkAFEwpKRBg=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"09f0cb5c68","applicationID":"76210961","transactionName":"NgcGZUJQVxYEVEJcCQ9NMUNZHk0ABFpFGgIEBAFfQ1QWDAtTU01IEQoU","queueTime":0,"applicationTime":17,"atts":"GkAFEwpKRBg=","errorBeacon":"bam.nr-data.net","agent":""}</script>
 
-<div class="kxhead" data-id="ITcATbN4" style="display:none !important;"></div><iframe sandbox="allow-scripts allow-same-origin" title="Adobe ID Syncing iFrame" id="destination_publishing_iframe_turner2_0" name="destination_publishing_iframe_turner2_0_name" src="https://turner2.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fstats.nba.com%2Fteams%2Fdefense%2F%3Fsort%3DDEF_RATING%26dir%3D-1%26Season%3D2006-07%26SeasonType%3DRegular%2520Season" class="aamIframeLoaded" style="display: none; width: 0px; height: 0px;"></iframe></body><iframe id="kx-proxy-ITcATbN4" src="https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&amp;kxt=https%3A%2F%2Fstats.nba.com&amp;kxcl=cdn&amp;kxp=" style="display: none; visibility: hidden; height: 0; width: 0;"></iframe>
+<iframe src="//s.amazon-adsystem.com/iu3?cm3ppd=1&amp;d=dtb-pub&amp;csif=t&amp;dl=ym_rbd_ox_pm_an" style="display: none;"></iframe><iframe sandbox="allow-scripts allow-same-origin" title="Adobe ID Syncing iFrame" id="destination_publishing_iframe_turner2_0" name="destination_publishing_iframe_turner2_0_name" src="https://turner2.demdex.net/dest5.html?d_nsid=0#https%3A%2F%2Fstats.nba.com%2Fteams%2Fdefense%2F%3Fsort%3DDEF_RATING%26dir%3D-1%26Season%3D2006-07%26SeasonType%3DRegular%2520Season" class="aamIframeLoaded" style="display: none; width: 0px; height: 0px;"></iframe><iframe id="google_osd_static_frame_3923365046042" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe><div class="kxhead" data-id="ITcATbN4" style="display:none !important;"><span class="kxtag kxinvisible" data-id="23409"><script>
+// this tag is intentionally blank
+</script></span><span class="kxtag kxinvisible" data-id="23410"></span><span class="kxtag kxinvisible" data-id="23412"><script type="text/javascript">Krux('social.init');</script></span><span class="kxtag kxinvisible" data-id="23430"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1010738507/?value=0&amp;guid=ON&amp;script=0"></span><span class="kxtag kxinvisible" data-id="23439"><img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l4uma&amp;p_id=Twitter"></span><span class="kxtag kxinvisible" data-id="23440"><img height="1" width="1" style="display:none;" alt="" src="//t.co/i/adsct?txn_id=l4umb&amp;p_id=Twitter"></span><span class="kxtag kxinvisible" data-id="23445"><script>
+    var slot;
+    (function() {
+        if (window.googletag && googletag.pubads() && googletag.pubads().getSlots()) {
+            var c1 = {};
+            var arr = googletag.pubads().getSlots();
+            var site = ["br", "cnn", "cnn_arabic", "cnn_international", "cnn_money", "conan", "eSports", "espanol", "funnyordie", "hln", "nascar", "nba", "ncaa", "pga", "tbs", "tcm", "toonswim", "trutv"];
+
+            if (arr) {
+                for (var i = 0, l = arr.length; i < l; i++) {
+                    c1[arr[i].getAdUnitPath()] = (c1[arr[i].getAdUnitPath()] || 0) + 1;
+                }
+                slot = Object.keys(c1)[0] || null;
+                for (k in c1) slot = (c1[k] > c1[slot]) ? k : slot;
+            }
+
+            if (window.slot) { // Set string lowercase and split slot into an array 
+                slot = slot.toLowerCase();
+                slot = slot.split('/');
+
+                // Changes slot from "as" to "toonswim"
+                slot[2] = slot[2] == 'as' ? 'toonswim' : slot[2];
+                // Changes slot from "arabic" to "cnn_arabic"
+                slot[2] = slot[2] == 'arabic' ? 'cnn_arabic' : slot[2];
+                // Changes slot from "cnni" to "cnn_internation"
+                slot[2] = slot[2] == 'cnni' ? 'cnn_international' : slot[2];
+                // Changes slot from "cnnmoney" to "cnn_money"
+                slot[2] = slot[2] == 'cnnmoney' ? 'cnn_money' : slot[2];
+				
+				// "teamcoco"
+				if(slot[2] === "tbs" && slot[4] === "conan"){
+					slot = slot.splice(2)
+				};
+
+                for (var i = 0; i < site.length; i++) {
+
+                    if (slot[2] == site[i]) {
+                        // Using domain to dynamically scrape page attribute site 
+                        Krux('set', 'page_attr_' + slot[2] + '_site', slot[2]);
+                        // Using domain to dynamically scrape page attribute rollup
+                        Krux('set', 'page_attr_' + slot[2] + '_rollup', slot[3]);
+                        // Using domain to dynamically scrape page attribute section 
+                        Krux('set', 'page_attr_' + slot[2] + '_section', slot[4]);
+                        // Using domain to dynamically scrape page attribute subsection
+                        Krux('set', 'page_attr_' + slot[2] + '_subsection', slot[5]);
+                        // Using domain to dynamically scrape page attribute AdUnit 5 
+                        Krux('set', 'page_attr_' + slot[2] + '_adunit5', slot[6]);
+                        
+	
+                    };
+                };
+            };
+        };
+		
+		if(window.CNNMONEY && window.CNNMONEY.adTargets) spec = CNNMONEY.adTargets.spec;
+		if(window.CNN && window.CNN.adTargets) spec = CNN.adTargets.spec;
+		if(window.CNNI && window.CNNI.adTargets) spec = CNNI.adTargets.spec;
+						
+		if (window.spec && slot && slot.length >= 3) {
+           Krux('set', 'page_attr_' + slot[2] + '_spec', spec);
+        };
+		
+	
+		
+		
+        if (window.queryString) {
+            Krux('set', 'page_attr_on_site_searcher', true)
+        };
+
+
+        if (window.CNN && window.CNN.contentModel && window.CNN.contentModel.analytics) {
+            var ct = CNN.contentModel.analytics.cap_topics;
+            if (ct) {
+                ct = ct.replace(/ /g, '');
+                Krux('set', 'page_attr_cap_topics', ct);
+            };
+        };
+
+    })();
+</script></span><span class="kxtag kxinvisible" data-id="23461"><img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l4uma&amp;p_id=Twitter"></span><span class="kxtag kxinvisible" data-id="23462"><img height="1" width="1" style="display:none;" alt="" src="https://analytics.twitter.com/i/adsct?txn_id=l4umb&amp;p_id=Twitter"></span><span class="kxtag kxinvisible" data-id="23474"><script>
+(function() {
+
+    // Using Meta keywords to produce page attribute keywords
+    Krux('scrape', { "page_attr_keywords": {meta_name: "keywords"}});
+    // Using Cookie last5stocks to produce page attribute cookie_last5stocks
+    Krux('scrape', { "page_attr_cookie_last5stocks": {cookie: "last5stocks"}});
+
+    if (document.location.host.match("bleacherreport")) {
+        // Using Meta keywords to produce page attribute keywords
+        Krux('scrape', {"page_attr_bleacherreport_keywords": {meta_name: "keywords"}});
+        Krux('scrape', {"page_attr_bleacherreport_site": {javascript: "document.location.host.split('.')[0]"}});
+    }
+
+    if(window.slot) {
+        // get namespace;
+        var ns = (function() {
+                        var exceptions, jsmdmap, key1, key2, val1, val2, _ref;
+                        if (window._jsmd_default) {
+                            jsmdmap = _jsmd_default.map;
+                            for (key1 in jsmdmap) {
+                                val1 = jsmdmap[key1];
+                                for (key2 in val1) {
+                                    val2 = val1[key2];
+                                    if (ns = val2 != null ? (_ref = val2.settings) != null ? _ref.visitorNamespace : void 0 : void 0) {
+                                        return ns;
+                                    }
+                                }
+                            }
+                        }
+                        exceptions = {
+                            'NBA': '0_nbagroup',
+                            'Nascar': 'nascardigitalsap',
+                            'Bleacher Report': 'turnersidigital',
+                            'Teamcoco': '0_teamcoco'
+                        };
+                        return exceptions[Krux('get', 'site')];
+                })();
+
+        if(!ns) return;
+        //get site
+        var site = slot[2];
+        // get pixel
+        var pixel = window["s_i_" + ns] || window["s_i_1_" + ns] || window["s_i_0_" + ns];
+        // regex for pixel source
+        var lookFor = "&h1=(.*?)&";
+        // check if pixel source matches the regex
+        var match =  (pixel && pixel.src) ? pixel.src.match(lookFor) : null;
+
+        if (match) {
+            var parts = decodeURIComponent(match[1]).split('|');
+            var keys = ['lob', 'brand', 'bizunit', 'sitename', 'sitesectionlevel1', 'sitesectionlevel2'];
+            for (var i = 0, l = keys.length;i < l; i++) {
+                var key = keys[i];
+                if(parts[i]) Krux('set', "page_attr_" + site + "_" + key, parts[i]);
+            }
+        }
+    }
+
+})();
+</script></span><span class="kxtag kxinvisible" data-id="23477"><script>
+    (function() {
+        // To Pull GUID 
+        Krux('scrape', {
+            'user_attr_turner_guid': {
+                cookie: 'ug'
+            }
+        });
+
+        // To Pull Adobe Analytics ID 
+        adobeID = Krux('scrape.javascript', "Krux('scrape.cookie', 's_vi').split('|',2)[1].split('[')[0]");
+        if (window.adobeID) {
+            if (adobeID.length === 33 && adobeID.indexOf('-') != -1) {
+                Krux('set', 'user_attr_aa_id', adobeID);
+            };
+        };
+
+        // To Pull Backup Adobe Analytics ID
+        Krux('scrape', {
+            'user_attr_af_id': {
+                cookie: 's_fid'
+            }
+        });
+
+    })();
+</script></span><span class="kxtag kxinvisible" data-id="23511"></span><span class="kxtag kxinvisible" data-id="23548"></span><span class="kxtag kxinvisible" data-id="23636"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/925133270/?value=1.00&amp;currency_code=USD&amp;label=yxtWCO6-3GcQ1tORuQM&amp;guid=ON&amp;script=0"></span><span class="kxtag kxinvisible" data-id="26137"><script>
+    (function() {
+        var kuid = Krux('get', 'user');
+        if (kuid) {
+            var prefix = location.protocol == 'https:' ? "https:" : "http:";
+            var kurl_params = encodeURIComponent("_kuid=" + kuid + "&_kdpid=4e3f8627-26fa-484d-bd95-a1f8f09d95a6&dlxid=<na_id>&dlxdata=<na_da>");
+            var kurl = prefix + "//beacon.krxd.net/data.gif?" + kurl_params;
+            var dlx_url = '//r.nexac.com/e/getdata.xgi?dt=br&pkey=quky68qukyi81&ru=' + kurl;
+            var i = new Image();
+            i.src = dlx_url;
+        }
+    })();
+</script>
+</span><span class="kxtag kxinvisible" data-id="26604"><script>
+(function(){
+var kxfbmap = {
+  'JLmLD3_1': '782589578427709',
+  'ITcBPihd':	'289259704582565',
+  'ITcA0tkB':	'1517553741888280',
+  'ITcA76Nx':	'1407388882899380',
+  'ITcAwecV':	'497430300356774',
+  'IWzDCwHo':	'418245194992316',
+  'ITcAsWsy':	'418245194992316',
+  'ITcATbN4':	'418245194992316',
+  'ITcAEoo6':	'177383419263866',
+  'ITb_4eqO':	'731697573629176',
+  'ITb9NmYG':   '596760543765088',
+  'ITb9Q03y':   '418245194992316',
+  'IWzCuclz':   '687168111412131'
+};
+
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', kxfbmap[Krux('get', 'confid')]);
+fbq('track', 'PageView');
+})();
+</script> </span><span class="kxtag kxinvisible" data-id="32696"><script>
+ (function() {
+     var _kxStore = Krux('require:store');
+     _kxStore.set('segs_partner', _kxStore.get('segs'));
+     Krux('segments:watch', function(segs) {
+         setTimeout(function() {
+             _kxStore.set('segs_partner', _kxStore.get('segs'));
+         }, 1);
+
+     });
+ })();
+</script></span><span class="kxtag kxinvisible" data-id="33127"><script>
+(function() {
+    /* Selective Attribute DataLayer Library Tag */
+    var _, allAttr, allowedList, attr, attributes, dataLayerIngester, dataObj,
+        isAllowed, keepCase, libUtil, omitKeys, pageAttr, prefix, toSet, trim,
+        userAttr, util, value,
+        hasProp = {}.hasOwnProperty;
+    _ = Krux('require:underscore');
+    util = Krux('require:util');
+    libUtil = Krux('require:util.library-tag');
+    dataLayerIngester = Krux('require:scrape').ingestDataLayer;
+
+    /* Safe copy of dataLayer object */
+    dataObj = Krux('scrape.javascript', 'navigator');
+
+    /* String trimming helper function */
+    trim = function(attr) {
+        return ("" + attr).replace(/^\s+|\s+$/g, '');
+    };
+
+    /* Attribute configs */
+    pageAttr = _.map('undefined'.split(','), trim);
+    userAttr = _.map('userAgent'.split(','), trim);
+
+    /* Create a array of attributes striping any empty strings */
+    allAttr = _.without(pageAttr.concat(userAttr), '');
+
+    /* Configuration settings */
+    keepCase = 'undefined' === 'true';
+    omitKeys = 'false'.split(',');
+
+    /* Resolve Prefix */
+    prefix = libUtil.resolvePrefix('undefined', 'undefined',
+        'undefined');
+
+    /* Function to varify if attribute should be used */
+    isAllowed = function(value, whitelist) {
+        var i, len, str, x;
+        str = "" + value;
+        if (!((value != null) && str.length > 0)) {
+            return false;
+        }
+        for (i = 0, len = whitelist.length; i < len; i++) {
+            x = whitelist[i];
+            if (value.match(x) != null) {
+                return true;
+            }
+        }
+        return false;
+    };
+
+    /* Get a full list of attributes usting the dataLayer tool */
+    attributes = dataLayerIngester(dataObj, {
+        omitKeys: libUtil.removeFalsyStrings(omitKeys.concat(libUtil.EXCLUDE_KEYS_CONFIG)),
+        omitValues: libUtil.EXCLUDE_VALUES_CONFIG,
+        caseSensitive: keepCase,
+        useFullPath: 'true' === 'true',
+        useLastValue: 'false' === 'true',
+        customDelimited: [/./],
+        altDelimiter: ',',
+        userKeys: _.map(userAttr, function(exp) {
+            return new RegExp("(^|\\.)" + exp + "$");
+        }),
+        optimizeNames: true
+    });
+
+    /* Only set Attributes in the allowed list */
+    allowedList = _.map(allAttr, function(name) {
+        return new RegExp("(_attr_|_attr_" + prefix + "|\\.)" + (keepCase ?
+            name : libUtil.normalizeAttrName(name, {
+                removeDot: false
+            })) + "$");
+    });
+    toSet = {};
+    for (attr in attributes) {
+        if (!hasProp.call(attributes, attr)) continue;
+        value = attributes[attr];
+        if (isAllowed(attr, allowedList)) {
+            toSet[attr] = value;
+        }
+    }
+    toSet = Krux('prefix:attr', toSet, prefix);
+    Krux('set', toSet);
+}).call();
+</script></span><span class="kxtag kxinvisible" data-id="34890"><script>
+(function(){
+  var kuid = Krux('get', 'user');
+  if (kuid) {
+      var neus_url = 'http://aa.agkn.com/adscores/g.pixel?sid=9212296238&tid=' + kuid;
+      var i = new Image();
+      i.src = neus_url;     
+  }
+})();
+</script></span><span class="kxtag kxinvisible" data-id="35550"><script>
+(function(){
+
+	var params = Krux('require:util').urlParams();
+	
+	Krux ('set', { 
+	'page_attr_utm_source': params.utm_source,
+	'page_attr_utm_medium': params.utm_medium,
+	'page_attr_utm_campaign': params.utm_campaign,
+	'page_attr_utm_content': params.utm_content,
+	'page_attr_utm_term': params.utm_term 
+	});
+	
+})();
+</script></span><span class="kxtag kxinvisible" data-id="37209"><script>
+(function(){
+  var kuid = Krux('get', 'user');
+  if (kuid) {
+      var neus_url = 'https://aa.agkn.com/adscores/g.pixel?sid=9212296238&tid=' + kuid;
+      var i = new Image();
+      i.src = neus_url;     
+  }
+})();
+</script></span><span class="kxtag kxinvisible" data-id="33132"><script>
+(function(){
+	Krux('scrape' , {'user_attr_user_agent': {js_global: 'navigator.userAgent'}});
+
+})();
+</script></span></div></body><iframe id="kx-proxy-ITcATbN4" src="https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=ITcATbN4&amp;kxt=https%3A%2F%2Fstats.nba.com&amp;kxcl=cdn&amp;kxp=" style="display: none; visibility: hidden; height: 0; width: 0;"></iframe>
