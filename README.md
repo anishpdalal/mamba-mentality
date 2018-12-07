@@ -16,5 +16,11 @@ Important Links
 ---
 
 - Data source: https://www.kaggle.com/c/kobe-bryant-shot-selection/data
-- First project check-in: https://github.com/anishpdalal/mamba-mentality/blob/master/final_project_checkin_template.ipynb
 - Final presentation: https://github.com/anishpdalal/mamba-mentality/blob/master/FinalPresentation.ipynb
+- Final Modeling Approach: https://github.com/anishpdalal/mamba-mentality/blob/master/FINAL_models.ipynb
+  - Contains model comparison via cross-validation results
+  - Tests for ensuring cross-validation behaved as expected
+- EDA and Data Visualization: https://github.com/anishpdalal/mamba-mentality/blob/master/Final_EDA.ipynb
+  - Contains code for visualizations included in the final presentation
+  - To see other plots, please visit the eda__data_viz folder
+- First project check-in: https://github.com/anishpdalal/mamba-mentality/blob/master/final_project_checkin_template.ipynb
