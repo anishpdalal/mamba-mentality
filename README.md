@@ -7,7 +7,7 @@ __Group Members:__ Chris Olley, Connor Swanson, Anish Dalal, Jon-Ross Presta, & 
 
 Project Description
 ---
-For our final project, we wanted to create a machine learning algorithm that could predict Kobe Bryant's shot success. Using [this dataset](https://www.kaggle.com/c/kobe-bryant-shot-selection/data), we were able to create an algorithm with an accuracy of <INSERT ACCURACY HERE>.
+For our final project, we wanted to create a machine learning algorithm that could predict Kobe Bryant's shot success. Using [this dataset](https://www.kaggle.com/c/kobe-bryant-shot-selection/data), we were able to create Random Forest and Gradient Boosting models with log loss of 0.6103 and 0.6064 respectively.
 
 Please use the labeled folders in this repository to find our code for our expoloratory data analysis, fitting multiple models, feature engineering, model evaluation, and visualization of our data.
 
